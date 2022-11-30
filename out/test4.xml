@@ -1,0 +1,24 @@
+<lesson>
+	<info>
+		<author>Mitáš Vít</author>
+		<create_date>1.1.1111</create_date>
+		<subject>Vysokoškolská matematika</subject>
+		<tags>
+			<tag1>Čínština</tag1>
+			<tag2>Matika</tag2>
+			<tag3>Random content</tag3>
+		</tags>
+		<sources>
+			<source1>https://cs.wikipedia.org/wiki/Pierre_B%C3%A9zier</source1>
+			<source2>https://marast.fit.cvut.cz/</source2>
+		</sources>
+	</info>
+	<body>
+		<title>To to je nadpis</title>
+		<text>
+			Unicode (anglicky Unicode) je technická norma pro oblast výpočetní techniky definující jednotnou znakovou sadu a konzistentní kódování znaků pro reprezentaci a zpracovávání textů použitelné pro většinu písem používaných v současnosti na Zemi. Unicode je vyvíjen v součinnosti s ISO/IEC 10646 a je publikován elektronicky jako The Unicode Standard. Nejnovější verze obsahuje repertoár více než 140 000 znaků pokrývajících 159 moderních a historických písem a mnoho sad symbolů. Standard sestává ze sady tabulek pro vizuální referenci, popisu metod kódování, sady referenčních datových souborů a dalších položek, jako například vlastností znaků, pravidel pro normalizaci textů, dekompozici, řazení, vykreslování a zobrazování obousměrného textu (pro správné zobrazení textu obsahující písma psaná zprava doleva i zleva doprava, jako například arabské a hebrejské písmo).[1] Poslední verze je Unicode 14.0 ze září roku 2021. Normu udržuje Unicode Consortium. 
+		</text>
+		<examples></examples>
+		<excercises></excercises>
+	</body>
+</lesson>

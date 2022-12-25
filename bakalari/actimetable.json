@@ -1,0 +1,1060 @@
+{
+    "Hours": [
+        {
+            "Id": 2,
+            "Caption": "0",
+            "BeginTime": "7:00",
+            "EndTime": "7:45"
+        },
+        {
+            "Id": 3,
+            "Caption": "1",
+            "BeginTime": "7:55",
+            "EndTime": "8:40"
+        },
+        {
+            "Id": 4,
+            "Caption": "2",
+            "BeginTime": "8:50",
+            "EndTime": "9:35"
+        },
+        {
+            "Id": 5,
+            "Caption": "3",
+            "BeginTime": "9:55",
+            "EndTime": "10:40"
+        },
+        {
+            "Id": 6,
+            "Caption": "4",
+            "BeginTime": "10:50",
+            "EndTime": "11:35"
+        },
+        {
+            "Id": 7,
+            "Caption": "5",
+            "BeginTime": "11:45",
+            "EndTime": "12:30"
+        },
+        {
+            "Id": 8,
+            "Caption": "6",
+            "BeginTime": "12:40",
+            "EndTime": "13:25"
+        },
+        {
+            "Id": 9,
+            "Caption": "7",
+            "BeginTime": "13:35",
+            "EndTime": "14:20"
+        },
+        {
+            "Id": 10,
+            "Caption": "8",
+            "BeginTime": "14:30",
+            "EndTime": "15:15"
+        },
+        {
+            "Id": 11,
+            "Caption": "9",
+            "BeginTime": "15:25",
+            "EndTime": "16:10"
+        },
+        {
+            "Id": 12,
+            "Caption": "10",
+            "BeginTime": "16:25",
+            "EndTime": "17:10"
+        },
+        {
+            "Id": 13,
+            "Caption": "11",
+            "BeginTime": "17:20",
+            "EndTime": "18:05"
+        },
+        {
+            "Id": 14,
+            "Caption": "12",
+            "BeginTime": "18:15",
+            "EndTime": "19:00"
+        },
+        {
+            "Id": 15,
+            "Caption": "13",
+            "BeginTime": "19:10",
+            "EndTime": "19:55"
+        },
+        {
+            "Id": 16,
+            "Caption": "14",
+            "BeginTime": "20:05",
+            "EndTime": "20:50"
+        }
+    ],
+    "Days": [
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "YP",
+                    "TeacherId": "UMPYN",
+                    "RoomId": "VF",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Pravidla pro hierarchizaci sídel. Christalerova teorie."
+                },
+                {
+                    "HourId": 4,
+                    "GroupIds": [
+                        "EN"
+                    ],
+                    "SubjectId": "23",
+                    "TeacherId": "ULN4I",
+                    "RoomId": "SR",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Porozumění textu (une sortie)"
+                },
+                {
+                    "HourId": 5,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "U0043",
+                    "RoomId": "A5",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Epos o Gilgamešovi - rozbor ukázky"
+                },
+                {
+                    "HourId": 6,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": " 4",
+                    "TeacherId": "UYN4D",
+                    "RoomId": "U2",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [
+                        "O007WKGILS"
+                    ],
+                    "Theme": "Conversation, WB practice, The London marathon, presentations - Jane Eyre, revision for a test - past tenses"
+                },
+                {
+                    "HourId": 8,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "13",
+                    "TeacherId": "U  15",
+                    "RoomId": "84",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Sinice"
+                },
+                {
+                    "HourId": 9,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": " 8",
+                    "TeacherId": "UYN3Z",
+                    "RoomId": "VF",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Pravěk"
+                },
+                {
+                    "HourId": 10,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": "12",
+                    "TeacherId": "UJN4E",
+                    "RoomId": "GZ",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Analýza alchymistického pergamenu"
+                },
+                {
+                    "HourId": 11,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": "12",
+                    "TeacherId": "UJN4E",
+                    "RoomId": "GZ",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Rekonstrukce alchymistické výroby stříbra a zlata"
+                }
+            ],
+            "DayOfWeek": 1,
+            "Date": "2022-10-10T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "GroupIds": [
+                        "CA"
+                    ],
+                    "SubjectId": "21",
+                    "TeacherId": "U0043",
+                    "RoomId": "B9",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "CBM  Umělecký salón, - workshop, exkurze"
+                },
+                {
+                    "HourId": 4,
+                    "GroupIds": [
+                        "CA"
+                    ],
+                    "SubjectId": "21",
+                    "TeacherId": "U0043",
+                    "RoomId": "B9",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "CBM Umělecký salón - workshop, exkurze"
+                },
+                {
+                    "HourId": 5,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "12",
+                    "TeacherId": "UJN4E",
+                    "RoomId": "ZW",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [
+                        "O0ZWWKEFKI"
+                    ],
+                    "Theme": "Chemie jako věda"
+                },
+                {
+                    "HourId": 6,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "12",
+                    "TeacherId": "UJN4E",
+                    "RoomId": "ZW",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [
+                        "O0ZWWKEFKI"
+                    ],
+                    "Theme": "Základní pojmy, látky a směsi"
+                },
+                {
+                    "HourId": 8,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": "58",
+                    "TeacherId": "UK36Y",
+                    "RoomId": "0N",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Základní jednotka PC - CPU, RAM"
+                },
+                {
+                    "HourId": 9,
+                    "GroupIds": [
+                        "EC"
+                    ],
+                    "SubjectId": "ZG",
+                    "TeacherId": "UYN3T",
+                    "RoomId": "6B",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "LA - hod míčkem."
+                },
+                {
+                    "HourId": 10,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "50",
+                    "TeacherId": "U  28",
+                    "RoomId": "VF",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Pozornost."
+                },
+                {
+                    "HourId": 11,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "10",
+                    "TeacherId": "UVN56",
+                    "RoomId": "VF",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Kužel"
+                }
+            ],
+            "DayOfWeek": 2,
+            "Date": "2022-10-11T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "11",
+                    "TeacherId": "UUN53",
+                    "RoomId": "ZX",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Rovnoměrný pohyb - početní úlohy"
+                },
+                {
+                    "HourId": 4,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "U0043",
+                    "RoomId": "A5",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Písemná práce, Egyptské písemnictví a literatura"
+                },
+                {
+                    "HourId": 5,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": " 4",
+                    "TeacherId": "UYN4D",
+                    "RoomId": "9B",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Reading - Bridge ( maturita test), past tense - final revision, Maturita Skills Trainer - listening,.. presentations - Jane Eyre"
+                },
+                {
+                    "HourId": 6,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": " 4",
+                    "TeacherId": "UYN4D",
+                    "RoomId": "9B",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "After you  read  - chapters : 1 - 3, before you read  - conversation, chapters 4 - 6 ( Notting Hill)"
+                },
+                {
+                    "HourId": 7,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": " 8",
+                    "TeacherId": "UYN3Z",
+                    "RoomId": "VF",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Pravěk – dpba železná"
+                }
+            ],
+            "DayOfWeek": 3,
+            "Date": "2022-10-12T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "U0043",
+                    "RoomId": "A5",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Syropalestina - Bible"
+                },
+                {
+                    "HourId": 4,
+                    "GroupIds": [
+                        "EN"
+                    ],
+                    "SubjectId": "23",
+                    "TeacherId": "ULN4I",
+                    "RoomId": "SR",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Une sortie avec des amis"
+                },
+                {
+                    "HourId": 5,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "10",
+                    "TeacherId": "UVN56",
+                    "RoomId": "VF",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Povrch kužele"
+                },
+                {
+                    "HourId": 6,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "13",
+                    "TeacherId": "U  15",
+                    "RoomId": "84",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Eukaryotická buňka"
+                },
+                {
+                    "HourId": 7,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": " 4",
+                    "TeacherId": "UYN4D",
+                    "RoomId": "9B",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [
+                        "O007WKMGDE",
+                        "O007WKLJRI"
+                    ],
+                    "Theme": "Final test - U.1"
+                },
+                {
+                    "HourId": 8,
+                    "GroupIds": [
+                        "EC"
+                    ],
+                    "SubjectId": "ZG",
+                    "TeacherId": "UYN3T",
+                    "RoomId": "6B",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "OV - hod medicinbalem, SH - florbal, hra."
+                }
+            ],
+            "DayOfWeek": 4,
+            "Date": "2022-10-13T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "U0043",
+                    "RoomId": "A5",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Vývoj jazyka"
+                },
+                {
+                    "HourId": 4,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": "58",
+                    "TeacherId": "UK36Y",
+                    "RoomId": "0N",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Bobřík informatiky - cvičný test"
+                },
+                {
+                    "HourId": 5,
+                    "GroupIds": [
+                        "08"
+                    ],
+                    "SubjectId": "10",
+                    "TeacherId": "UVN56",
+                    "RoomId": "ZX",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Objem kužele"
+                },
+                {
+                    "HourId": 6,
+                    "GroupIds": [
+                        "EN"
+                    ],
+                    "SubjectId": "23",
+                    "TeacherId": "ULN4I",
+                    "RoomId": "32",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Opakování gram."
+                },
+                {
+                    "HourId": 7,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "11",
+                    "TeacherId": "UUN53",
+                    "RoomId": "0X",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Zrychlení"
+                },
+                {
+                    "HourId": 8,
+                    "GroupIds": [
+                        "ZW"
+                    ],
+                    "SubjectId": "YP",
+                    "TeacherId": "UMPYN",
+                    "RoomId": "5H",
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Theme": "Struktura sídel."
+                }
+            ],
+            "DayOfWeek": 5,
+            "Date": "2022-10-14T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        }
+    ],
+    "Classes": [
+        {
+            "Id": "O0",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        }
+    ],
+    "Groups": [
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "EN",
+            "Abbrev": "5.P FJ+",
+            "Name": "kvinta FJ+"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "CA",
+            "Abbrev": "5.P VV",
+            "Name": "kvinta "
+        },
+        {
+            "ClassId": "O0",
+            "Id": "CA",
+            "Abbrev": "5.P VV",
+            "Name": "kvinta "
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "EC",
+            "Abbrev": "5.P TVCh",
+            "Name": "kvinta "
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "EN",
+            "Abbrev": "5.P FJ+",
+            "Name": "kvinta FJ+"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "EC",
+            "Abbrev": "5.P TVCh",
+            "Name": "kvinta "
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "08",
+            "Abbrev": "5.P A2",
+            "Name": "kvinta AJ 2"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "EN",
+            "Abbrev": "5.P FJ+",
+            "Name": "kvinta FJ+"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "O0",
+            "Id": "ZW",
+            "Abbrev": "5.P",
+            "Name": "kvinta"
+        }
+    ],
+    "Subjects": [
+        {
+            "Id": "YP",
+            "Abbrev": "Ge",
+            "Name": "Geografie a geologie"
+        },
+        {
+            "Id": "23",
+            "Abbrev": "FJ",
+            "Name": "Francouzský jazyk"
+        },
+        {
+            "Id": " 2",
+            "Abbrev": "ČJ",
+            "Name": "Český jazyk a literatura"
+        },
+        {
+            "Id": " 4",
+            "Abbrev": "AJ",
+            "Name": "Anglický jazyk"
+        },
+        {
+            "Id": "13",
+            "Abbrev": "Bi",
+            "Name": "Biologie"
+        },
+        {
+            "Id": " 8",
+            "Abbrev": "D",
+            "Name": "Dějepis"
+        },
+        {
+            "Id": "12",
+            "Abbrev": "CH",
+            "Name": "Chemie"
+        },
+        {
+            "Id": "21",
+            "Abbrev": "VV",
+            "Name": "Estetická výchova - výtvarná"
+        },
+        {
+            "Id": "58",
+            "Abbrev": "IVT",
+            "Name": "Informatika a výp. technika"
+        },
+        {
+            "Id": "ZG",
+            "Abbrev": "TV",
+            "Name": "Tělesná výchova"
+        },
+        {
+            "Id": "50",
+            "Abbrev": "ZSV",
+            "Name": "Základy společenských věd"
+        },
+        {
+            "Id": "10",
+            "Abbrev": "MAT",
+            "Name": "Matematika"
+        },
+        {
+            "Id": "11",
+            "Abbrev": "F",
+            "Name": "Fyzika"
+        }
+    ],
+    "Teachers": [
+        {
+            "Id": "UMPYN",
+            "Abbrev": "PT",
+            "Name": "Mgr. Petr Tišl"
+        },
+        {
+            "Id": "ULN4I",
+            "Abbrev": "RoJ",
+            "Name": "Mgr. Romana Jelínková"
+        },
+        {
+            "Id": "U0043",
+            "Abbrev": "ZK",
+            "Name": "Mgr. Zdeňka Kleinová"
+        },
+        {
+            "Id": "UYN4D",
+            "Abbrev": "OP",
+            "Name": "Mgr. Olga Prokopová"
+        },
+        {
+            "Id": "U  15",
+            "Abbrev": "MN",
+            "Name": "RNDr. Marta Najbertová"
+        },
+        {
+            "Id": "UYN3Z",
+            "Abbrev": "ZM",
+            "Name": "Mgr. Zuzana Machková"
+        },
+        {
+            "Id": "UJN4E",
+            "Abbrev": "TF",
+            "Name": "Mgr. Tomáš Feltl"
+        },
+        {
+            "Id": "UK36Y",
+            "Abbrev": "LS",
+            "Name": "Ing. Luboš Slezák"
+        },
+        {
+            "Id": "UYN3T",
+            "Abbrev": "LKr",
+            "Name": "Bc. Ladislav Král"
+        },
+        {
+            "Id": "U  28",
+            "Abbrev": "JF",
+            "Name": "Mgr. Jana Feltlová"
+        },
+        {
+            "Id": "UVN56",
+            "Abbrev": "VJ",
+            "Name": "Mgr. Veronika Jílková"
+        },
+        {
+            "Id": "UUN53",
+            "Abbrev": "OK",
+            "Name": "Ing. Ondřej Klimeš"
+        }
+    ],
+    "Rooms": [
+        {
+            "Id": "VF",
+            "Abbrev": "KV",
+            "Name": ""
+        },
+        {
+            "Id": "SR",
+            "Abbrev": "JL1",
+            "Name": ""
+        },
+        {
+            "Id": "A5",
+            "Abbrev": "SX",
+            "Name": ""
+        },
+        {
+            "Id": "U2",
+            "Abbrev": "KR",
+            "Name": ""
+        },
+        {
+            "Id": "84",
+            "Abbrev": "Bi",
+            "Name": ""
+        },
+        {
+            "Id": "GZ",
+            "Abbrev": "CHl",
+            "Name": ""
+        },
+        {
+            "Id": "B9",
+            "Abbrev": "Vv",
+            "Name": ""
+        },
+        {
+            "Id": "ZW",
+            "Abbrev": "CH",
+            "Name": ""
+        },
+        {
+            "Id": "0N",
+            "Abbrev": "LV2",
+            "Name": ""
+        },
+        {
+            "Id": "6B",
+            "Abbrev": "TV2",
+            "Name": ""
+        },
+        {
+            "Id": "ZX",
+            "Abbrev": "Fy",
+            "Name": ""
+        },
+        {
+            "Id": "9B",
+            "Abbrev": "JL5",
+            "Name": ""
+        },
+        {
+            "Id": "32",
+            "Abbrev": "AU",
+            "Name": ""
+        },
+        {
+            "Id": "0X",
+            "Abbrev": "Fl",
+            "Name": ""
+        },
+        {
+            "Id": "5H",
+            "Abbrev": "PR",
+            "Name": ""
+        }
+    ],
+    "Cycles": [
+        {
+            "Id": "1",
+            "Abbrev": "L",
+            "Name": "Lichy tyden"
+        }
+    ]
+}

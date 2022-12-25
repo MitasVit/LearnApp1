@@ -1,0 +1,221 @@
+{
+    
+    "Subjects": [
+        {
+            "Id": "YP",
+            "Abbrev": "Ge",
+            "Name": "Geografie a geologie"
+        },
+        {
+            "Id": "23",
+            "Abbrev": "FJ",
+            "Name": "Francouzský jazyk"
+        },
+        {
+            "Id": " 2",
+            "Abbrev": "ČJ",
+            "Name": "Český jazyk a literatura"
+        },
+        {
+            "Id": " 4",
+            "Abbrev": "AJ",
+            "Name": "Anglický jazyk"
+        },
+        {
+            "Id": "13",
+            "Abbrev": "Bi",
+            "Name": "Biologie"
+        },
+        {
+            "Id": " 8",
+            "Abbrev": "D",
+            "Name": "Dějepis"
+        },
+        {
+            "Id": "12",
+            "Abbrev": "CH",
+            "Name": "Chemie"
+        },
+        {
+            "Id": "11",
+            "Abbrev": "F",
+            "Name": "Fyzika"
+        },
+        {
+            "Id": "21",
+            "Abbrev": "VV",
+            "Name": "Estetická výchova - výtvarná"
+        },
+        {
+            "Id": "58",
+            "Abbrev": "IVT",
+            "Name": "Informatika a výp. technika"
+        },
+        {
+            "Id": "ZG",
+            "Abbrev": "TV",
+            "Name": "Tělesná výchova"
+        },
+        {
+            "Id": "50",
+            "Abbrev": "ZSV",
+            "Name": "Základy společenských věd"
+        },
+        {
+            "Id": "10",
+            "Abbrev": "MAT",
+            "Name": "Matematika"
+        }
+    ],
+    "Teachers": [
+        {
+            "Id": "UMPYN",
+            "Abbrev": "PT",
+            "Name": "Mgr. Petr Tišl"
+        },
+        {
+            "Id": "ULN4I",
+            "Abbrev": "RoJ",
+            "Name": "Mgr. Romana Jelínková"
+        },
+        {
+            "Id": "U0043",
+            "Abbrev": "ZK",
+            "Name": "Mgr. Zdeňka Kleinová"
+        },
+        {
+            "Id": "UYN4D",
+            "Abbrev": "OP",
+            "Name": "Mgr. Olga Prokopová"
+        },
+        {
+            "Id": "U  15",
+            "Abbrev": "MN",
+            "Name": "RNDr. Marta Najbertová"
+        },
+        {
+            "Id": "UYN3Z",
+            "Abbrev": "ZM",
+            "Name": "Mgr. Zuzana Machková"
+        },
+        {
+            "Id": "UJN4E",
+            "Abbrev": "TF",
+            "Name": "Mgr. Tomáš Feltl"
+        },
+        {
+            "Id": "UUN53",
+            "Abbrev": "OK",
+            "Name": "Ing. Ondřej Klimeš"
+        },
+        {
+            "Id": "UK36Y",
+            "Abbrev": "LS",
+            "Name": "Ing. Luboš Slezák"
+        },
+        {
+            "Id": "UYN3T",
+            "Abbrev": "LKr",
+            "Name": "Bc. Ladislav Král"
+        },
+        {
+            "Id": "U  28",
+            "Abbrev": "JF",
+            "Name": "Mgr. Jana Feltlová"
+        },
+        {
+            "Id": "UVN56",
+            "Abbrev": "VJ",
+            "Name": "Mgr. Veronika Jílková"
+        }
+    ],
+    "Rooms": [
+        {
+            "Id": "VF",
+            "Abbrev": "KV",
+            "Name": ""
+        },
+        {
+            "Id": "SR",
+            "Abbrev": "JL1",
+            "Name": ""
+        },
+        {
+            "Id": "A5",
+            "Abbrev": "SX",
+            "Name": ""
+        },
+        {
+            "Id": "U2",
+            "Abbrev": "KR",
+            "Name": ""
+        },
+        {
+            "Id": "84",
+            "Abbrev": "Bi",
+            "Name": ""
+        },
+        {
+            "Id": "GZ",
+            "Abbrev": "CHl",
+            "Name": ""
+        },
+        {
+            "Id": "0X",
+            "Abbrev": "Fl",
+            "Name": ""
+        },
+        {
+            "Id": "B9",
+            "Abbrev": "Vv",
+            "Name": ""
+        },
+        {
+            "Id": "ZW",
+            "Abbrev": "CH",
+            "Name": ""
+        },
+        {
+            "Id": "0N",
+            "Abbrev": "LV2",
+            "Name": ""
+        },
+        {
+            "Id": "6B",
+            "Abbrev": "TV2",
+            "Name": ""
+        },
+        {
+            "Id": "ZX",
+            "Abbrev": "Fy",
+            "Name": ""
+        },
+        {
+            "Id": "9B",
+            "Abbrev": "JL5",
+            "Name": ""
+        },
+        {
+            "Id": "32",
+            "Abbrev": "AU",
+            "Name": ""
+        },
+        {
+            "Id": "5H",
+            "Abbrev": "PR",
+            "Name": ""
+        }
+    ],
+    "Cycles": [
+        {
+            "Id": "0",
+            "Abbrev": "S",
+            "Name": "Sudy tyden"
+        },
+        {
+            "Id": "1",
+            "Abbrev": "L",
+            "Name": "Lichy tyden"
+        }
+    ]
+}

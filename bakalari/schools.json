@@ -1,0 +1,4698 @@
+[
+  {
+    "name": "",
+    "schoolCount": 2
+  },
+  {
+    "name": "Albrechtice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Albrechtice v Jizerských horách",
+    "schoolCount": 1
+  },
+  {
+    "name": "Aš",
+    "schoolCount": 3
+  },
+  {
+    "name": "Babice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bakov nad Jizerou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bánov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Baška",
+    "schoolCount": 1
+  },
+  {
+    "name": "Batelov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bavorov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bečov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bedihošť",
+    "schoolCount": 2
+  },
+  {
+    "name": "Bechlín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bechyně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bělá nad Radbuzou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bělá pod Bezdězem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Benátky nad Jizerou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Benešov",
+    "schoolCount": 7
+  },
+  {
+    "name": "Benešov u Prahy",
+    "schoolCount": 2
+  },
+  {
+    "name": "Bernartice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Beroun",
+    "schoolCount": 4
+  },
+  {
+    "name": "Beroun 2",
+    "schoolCount": 1
+  },
+  {
+    "name": "Beroun 2 - Město",
+    "schoolCount": 4
+  },
+  {
+    "name": "Beroun 7 - Králův Dvůr",
+    "schoolCount": 1
+  },
+  {
+    "name": "Beroun-Hlinky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bezno",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bílina",
+    "schoolCount": 4
+  },
+  {
+    "name": "Bílovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Blansko",
+    "schoolCount": 3
+  },
+  {
+    "name": "Blansko 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Blatná",
+    "schoolCount": 4
+  },
+  {
+    "name": "Blížkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bobrová",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bohumín",
+    "schoolCount": 3
+  },
+  {
+    "name": "Bohumín - Skřečoň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bohuňovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bohuslavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bohušovice nad Ohří",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bohutín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bochov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Bojanov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bojkovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Bolatice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bor u Tachova",
+    "schoolCount": 1
+  },
+  {
+    "name": "Borohrádek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Borová",
+    "schoolCount": 1
+  },
+  {
+    "name": "Borovany",
+    "schoolCount": 2
+  },
+  {
+    "name": "Boršice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bory",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brandýs nad Labem",
+    "schoolCount": 3
+  },
+  {
+    "name": "Brandýs nad Labem - Stará Bol.",
+    "schoolCount": 2
+  },
+  {
+    "name": "Brandýs nad Orlicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brandýsek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bratříkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brněnec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brniště",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno",
+    "schoolCount": 25
+  },
+  {
+    "name": "Brno - Bystrc",
+    "schoolCount": 3
+  },
+  {
+    "name": "Brno - Husovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno - Královo Pole",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno - Stránice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno - Žabovřesky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno - Židenice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno Chrlice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno-Nový Lískovec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brno-Žabovřesky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brodce",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brodce nad Jizerou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brodek u Prostějova",
+    "schoolCount": 1
+  },
+  {
+    "name": "Brodek u Přerova",
+    "schoolCount": 1
+  },
+  {
+    "name": "Broumov",
+    "schoolCount": 4
+  },
+  {
+    "name": "Broumy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bruntál",
+    "schoolCount": 2
+  },
+  {
+    "name": "Brušperk",
+    "schoolCount": 1
+  },
+  {
+    "name": "Břeclav",
+    "schoolCount": 4
+  },
+  {
+    "name": "Březí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Březnice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Březník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Březno",
+    "schoolCount": 1
+  },
+  {
+    "name": "Březová",
+    "schoolCount": 1
+  },
+  {
+    "name": "Břidličná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bučovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Budišov nad Budišovkou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Budkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Budyně nad Ohří",
+    "schoolCount": 1
+  },
+  {
+    "name": "Buchlovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bystré u Poličky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bystřany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bystřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bystřice nad Pernštejnem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bystřice pod Hostýnem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Bystřice u Benešova",
+    "schoolCount": 1
+  },
+  {
+    "name": "Byšice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Bzenec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cehnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cerekvice nad Bystřicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cerekvice nad Loučnou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cerhenice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cerhovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cotkytle",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cvikov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čachovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čáslav",
+    "schoolCount": 6
+  },
+  {
+    "name": "Častolovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čebín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čechtice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čeladná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čelákovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Čerčany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Černá Hora",
+    "schoolCount": 1
+  },
+  {
+    "name": "Černíkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Černilov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Černošice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Černovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Červená Voda",
+    "schoolCount": 1
+  },
+  {
+    "name": "Červené Janovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Červené Pečky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Červený Kostelec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Česká Bělá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Česká Kamenice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Česká Lípa",
+    "schoolCount": 14
+  },
+  {
+    "name": "Česká Třebová",
+    "schoolCount": 5
+  },
+  {
+    "name": "Česká Ves",
+    "schoolCount": 1
+  },
+  {
+    "name": "České Budějovice",
+    "schoolCount": 35
+  },
+  {
+    "name": "České Libchavy",
+    "schoolCount": 1
+  },
+  {
+    "name": "České Meziříčí",
+    "schoolCount": 1
+  },
+  {
+    "name": "České Velenice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Český Brod",
+    "schoolCount": 3
+  },
+  {
+    "name": "Český Brod - Liblice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Český Krumlov",
+    "schoolCount": 7
+  },
+  {
+    "name": "Český Těšín",
+    "schoolCount": 9
+  },
+  {
+    "name": "Čimelice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čistá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Čížkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dačice",
+    "schoolCount": 4
+  },
+  {
+    "name": "Damníkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Daskabát",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dašice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín 2",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín 9",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín I",
+    "schoolCount": 2
+  },
+  {
+    "name": "Děčín II",
+    "schoolCount": 2
+  },
+  {
+    "name": "Děčín III",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín IV",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín IX - Bynov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín VI",
+    "schoolCount": 3
+  },
+  {
+    "name": "Děčín VIII",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín XXVII - Březiny",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín XXXI",
+    "schoolCount": 1
+  },
+  {
+    "name": "Děčín XXXII",
+    "schoolCount": 2
+  },
+  {
+    "name": "Děčín-Libverda",
+    "schoolCount": 1
+  },
+  {
+    "name": "Desná v Jizerských horách",
+    "schoolCount": 1
+  },
+  {
+    "name": "Deštná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Deštné v Orlických horách",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dětmarovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dětřichov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dětřichov nad Bystřicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobrá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobrá Voda u Českých Budějovic",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobratice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobré",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobrovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobruška",
+    "schoolCount": 5
+  },
+  {
+    "name": "Dobřany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobřichovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dobříš",
+    "schoolCount": 4
+  },
+  {
+    "name": "Doksy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolany u Olomouce",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Bečva",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Bojanovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Bousov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Břežany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Cerekev",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Čermná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Hbity",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Kounice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Kralovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Lomná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Loučky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Lutyně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Němčí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Poustevna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Újezd",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dolní Vilémovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Domamil",
+    "schoolCount": 1
+  },
+  {
+    "name": "Domaželice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Domažlice",
+    "schoolCount": 4
+  },
+  {
+    "name": "Domažlice-Týnské Předměstí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Doudleby nad Orlicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Drnholec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Drnovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Dřísy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dubá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dubenec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dubí 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dubí 2",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dubí u Teplic",
+    "schoolCount": 1
+  },
+  {
+    "name": "Dubicko",
+    "schoolCount": 1
+  },
+  {
+    "name": "Duchcov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Dvůr Králové nad Labem",
+    "schoolCount": 6
+  },
+  {
+    "name": "Frenštát pod Radhoštěm",
+    "schoolCount": 3
+  },
+  {
+    "name": "Fryčovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Frýdek-Místek",
+    "schoolCount": 19
+  },
+  {
+    "name": "Frýdlant",
+    "schoolCount": 4
+  },
+  {
+    "name": "Frýdlant nad Ostravicí",
+    "schoolCount": 4
+  },
+  {
+    "name": "Halenkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Harrachov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Havířov - Bludovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Havířov - Město",
+    "schoolCount": 5
+  },
+  {
+    "name": "Havířov - Podlesí",
+    "schoolCount": 5
+  },
+  {
+    "name": "Havířov - Prostřední Suchá",
+    "schoolCount": 2
+  },
+  {
+    "name": "Havířov - Šumbark",
+    "schoolCount": 7
+  },
+  {
+    "name": "Havlíčkův Brod",
+    "schoolCount": 5
+  },
+  {
+    "name": "Hazlov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hejnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Heršpice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Heřmanice u Oder",
+    "schoolCount": 1
+  },
+  {
+    "name": "Heřmanův Městec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hlinsko",
+    "schoolCount": 4
+  },
+  {
+    "name": "Hluboká nad Vltavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hluboš",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hlučín",
+    "schoolCount": 3
+  },
+  {
+    "name": "Hluk",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hlušice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hněvošice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hněvotín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hnojník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hodonín",
+    "schoolCount": 3
+  },
+  {
+    "name": "Holešov",
+    "schoolCount": 4
+  },
+  {
+    "name": "Holice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Holice v Čechách",
+    "schoolCount": 1
+  },
+  {
+    "name": "Holýšov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horažďovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Adršpach",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Bečva",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Branná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Bříza",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Čermná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Dunajovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Jiřetín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Maršov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Planá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horní Suchá",
+    "schoolCount": 2
+  },
+  {
+    "name": "Horní Vltavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Horšovský Týn",
+    "schoolCount": 5
+  },
+  {
+    "name": "Hořepník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hořice",
+    "schoolCount": 6
+  },
+  {
+    "name": "Hořice v Podkrkonoší",
+    "schoolCount": 4
+  },
+  {
+    "name": "Hořiněves",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hořovice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Hostěradice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hostinné",
+    "schoolCount": 4
+  },
+  {
+    "name": "Hostivice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Hostomice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Hostouň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hostouň u Horšovského Týna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hoštka u Roudnice nad Labem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hradec Králové",
+    "schoolCount": 31
+  },
+  {
+    "name": "Hradec Králové 12",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hradec Králové 2",
+    "schoolCount": 2
+  },
+  {
+    "name": "Hradec Králové 7",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hradec nad Svitavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hrádek nad Nisou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hrádek u Rokycan",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hranice",
+    "schoolCount": 5
+  },
+  {
+    "name": "Hranice IV-Drahotuše",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hrochův Týnec",
+    "schoolCount": 2
+  },
+  {
+    "name": "Hronov",
+    "schoolCount": 3
+  },
+  {
+    "name": "Hroznětín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hroznová Lhota",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hřebeč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Humpolec",
+    "schoolCount": 3
+  },
+  {
+    "name": "Husinec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hustopeče",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hutisko-Solanec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Hvožďany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Cheb",
+    "schoolCount": 2
+  },
+  {
+    "name": "Cheb 2",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chlum u Třeboně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chlumec nad Cidlinou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Choceň",
+    "schoolCount": 4
+  },
+  {
+    "name": "Chocerady",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chodouny",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chodov",
+    "schoolCount": 4
+  },
+  {
+    "name": "Chodová Planá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Choltice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chomutice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chomutov",
+    "schoolCount": 14
+  },
+  {
+    "name": "Chotěboř",
+    "schoolCount": 4
+  },
+  {
+    "name": "Chotětov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chotoviny",
+    "schoolCount": 1
+  },
+  {
+    "name": "Choustníkovo Hradiště",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chrast",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chrastava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chraštice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chroustovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chrudim",
+    "schoolCount": 8
+  },
+  {
+    "name": "Chrudim 4",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chvaletice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chvalkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chvalšiny",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chyňava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Chyšky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ivančice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Ivanovice na Hané",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jablonec nad Nisou",
+    "schoolCount": 13
+  },
+  {
+    "name": "Jablonné nad Orlicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jablonné v Podještědí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jablunkov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Jáchymov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Jalubí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Janovice nad Úhlavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Janovice u Frýdku-Místku",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jaroměř",
+    "schoolCount": 2
+  },
+  {
+    "name": "Jaroměřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jaroslavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Javornice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Javorník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jenišovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jesenice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Jeseník",
+    "schoolCount": 3
+  },
+  {
+    "name": "Jestřebí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jevíčko",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jevišovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jičín",
+    "schoolCount": 7
+  },
+  {
+    "name": "Jihlava",
+    "schoolCount": 24
+  },
+  {
+    "name": "Jihlava 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jihlava 3",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jilemnice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Jílové",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jimramov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jince",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jindřichov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jindřichův Hradec",
+    "schoolCount": 4
+  },
+  {
+    "name": "Jindřichův Hradec I",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jindřichův Hradec II",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jindřichův Hradec V",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jirkov",
+    "schoolCount": 3
+  },
+  {
+    "name": "Jirny",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jistebnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Jistebník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kadaň",
+    "schoolCount": 7
+  },
+  {
+    "name": "Kamenice nad Lipou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kamenice u Jihlavy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kamenický Šenov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kameničky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kamenné Žehrovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kamenný Újezd",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kaplice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Karlovy Vary",
+    "schoolCount": 12
+  },
+  {
+    "name": "Karlovy Vary 6",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karlštejn",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karolinka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karviná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karviná - Fryštát",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karviná - Hranice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Karviná - Nové Město",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karviná - Ráj",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karviná-Hranice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Karviná-Mizerov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Karviná-Nové Město",
+    "schoolCount": 2
+  },
+  {
+    "name": "Karviná-Ráj",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kašperské Hory",
+    "schoolCount": 1
+  },
+  {
+    "name": "Katovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kdyně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kladno",
+    "schoolCount": 18
+  },
+  {
+    "name": "Kladno 2",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kladruby nad Labem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Klášterec nad Ohří",
+    "schoolCount": 2
+  },
+  {
+    "name": "Klášterec nad Orlicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Klatovy",
+    "schoolCount": 6
+  },
+  {
+    "name": "Klatovy 3",
+    "schoolCount": 2
+  },
+  {
+    "name": "Klatovy 4",
+    "schoolCount": 1
+  },
+  {
+    "name": "Klecany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Klenovice na Hané",
+    "schoolCount": 1
+  },
+  {
+    "name": "Klimkovice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Klobouky u Brna",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kněždub",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kněževes",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kněžmost",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kojetice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kojetín",
+    "schoolCount": 3
+  },
+  {
+    "name": "Kokory",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kolín",
+    "schoolCount": 7
+  },
+  {
+    "name": "Kolín II",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kolín III",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kolín IV",
+    "schoolCount": 3
+  },
+  {
+    "name": "Kolín V",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kolinec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Koloveč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Komárov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Koněšín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Konice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kopidlno",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kopřivnice",
+    "schoolCount": 5
+  },
+  {
+    "name": "Kosičky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kosmonosy",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kostelec na Hané",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kostelec nad Černými lesy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kostelec nad Labem",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kostelec nad Orlicí",
+    "schoolCount": 4
+  },
+  {
+    "name": "Kostomlaty nad Labem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Košetice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kounice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kounov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kovářov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kovářská",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kozlovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Krabčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Králíky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kralovice",
+    "schoolCount": 4
+  },
+  {
+    "name": "Kralupy nad Vltavou",
+    "schoolCount": 4
+  },
+  {
+    "name": "Kraslice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Krásná Lípa",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kratonohy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kravaře",
+    "schoolCount": 1
+  },
+  {
+    "name": "Krhanice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Krchleby",
+    "schoolCount": 1
+  },
+  {
+    "name": "Krnov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kroměříž",
+    "schoolCount": 7
+  },
+  {
+    "name": "Krouna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Krucemburk",
+    "schoolCount": 1
+  },
+  {
+    "name": "Krupka",
+    "schoolCount": 4
+  },
+  {
+    "name": "Kryry",
+    "schoolCount": 1
+  },
+  {
+    "name": "Křelov-Břuchotín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Křemže",
+    "schoolCount": 2
+  },
+  {
+    "name": "Křinec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Křivoklát",
+    "schoolCount": 1
+  },
+  {
+    "name": "Křoví",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kunice - Všešímy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kunovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Kunvald",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kuřim",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kutná Hora",
+    "schoolCount": 5
+  },
+  {
+    "name": "Kutná Hora - Hlouška",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kutná Hora - Karlov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Kyjov",
+    "schoolCount": 3
+  },
+  {
+    "name": "Kynšperk nad Ohří",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lánov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lanškroun",
+    "schoolCount": 4
+  },
+  {
+    "name": "Lanškroun-Vnitřní Město",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lázně Bohdaneč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ledčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ledeč nad Sázavou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Ledenice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lenešice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lešná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Letohrad",
+    "schoolCount": 5
+  },
+  {
+    "name": "Letovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Lety u Dobřichovic",
+    "schoolCount": 1
+  },
+  {
+    "name": "Libáň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Libčany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Libčice nad Vltavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liběchov",
+    "schoolCount": 3
+  },
+  {
+    "name": "Liberec",
+    "schoolCount": 11
+  },
+  {
+    "name": "Liberec  14",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 1",
+    "schoolCount": 3
+  },
+  {
+    "name": "Liberec 10",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 11",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 13",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 2",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 25",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 4",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 5",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec 6",
+    "schoolCount": 3
+  },
+  {
+    "name": "Liberec 7",
+    "schoolCount": 2
+  },
+  {
+    "name": "Liberec 8",
+    "schoolCount": 1
+  },
+  {
+    "name": "Liberec -Vratislavice nad Nisou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Líbeznice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Libhošť",
+    "schoolCount": 1
+  },
+  {
+    "name": "Libchavy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Libštát",
+    "schoolCount": 1
+  },
+  {
+    "name": "Libuň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lično",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lichnov 46",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lichoceves",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lípa",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lipník nad Bečvou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Lipov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lipová",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lipová-lázně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lišov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Liteň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Litoměřice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Litomyšl",
+    "schoolCount": 7
+  },
+  {
+    "name": "Litovel",
+    "schoolCount": 2
+  },
+  {
+    "name": "Litvínov",
+    "schoolCount": 4
+  },
+  {
+    "name": "Litvínov - Hamr",
+    "schoolCount": 1
+  },
+  {
+    "name": "Litvínov - Horní Litvínov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Loděnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lodhéřov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lochovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Loket",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lomnice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Lomnice nad Lužnicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lomnice nad Popelkou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Loučka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Loučná nad Desnou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Loukov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Louny",
+    "schoolCount": 5
+  },
+  {
+    "name": "Lovosice",
+    "schoolCount": 4
+  },
+  {
+    "name": "Lubenec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lubná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Luby u Chebu",
+    "schoolCount": 1
+  },
+  {
+    "name": "Luhačovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Luká",
+    "schoolCount": 1
+  },
+  {
+    "name": "Luka nad Jihlavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lukavec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Luleč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Luštěnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lutín",
+    "schoolCount": 2
+  },
+  {
+    "name": "Luže",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lužec nad Vltavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Lysá nad Labem",
+    "schoolCount": 3
+  },
+  {
+    "name": "Lysice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Majdalena",
+    "schoolCount": 1
+  },
+  {
+    "name": "Malá Skála",
+    "schoolCount": 1
+  },
+  {
+    "name": "Malé Svatoňovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Malečov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Malešov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Malonty",
+    "schoolCount": 1
+  },
+  {
+    "name": "Manchester, M16 8HX",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mariánské Lázně",
+    "schoolCount": 5
+  },
+  {
+    "name": "Melč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mělnické Vtelno",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mělník",
+    "schoolCount": 11
+  },
+  {
+    "name": "Merklín",
+    "schoolCount": 2
+  },
+  {
+    "name": "Měřín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Městec Králové",
+    "schoolCount": 2
+  },
+  {
+    "name": "Městečko Trnávka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Město Touškov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Meziměstí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mikulášovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mikulčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mikulov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Miletín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Milevsko",
+    "schoolCount": 4
+  },
+  {
+    "name": "Miličín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Milín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Milotice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Milovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Milovice - Mladá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mimoň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Miroslav",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mirošov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mirotice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mirovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mladá Boleslav",
+    "schoolCount": 22
+  },
+  {
+    "name": "Mladé Buky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mnichovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mnichovo Hradiště",
+    "schoolCount": 3
+  },
+  {
+    "name": "Mníšek pod Brdy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mohelnice",
+    "schoolCount": 5
+  },
+  {
+    "name": "Mochov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mokrá - Horákov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Morašice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Moravany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Morávka 178",
+    "schoolCount": 1
+  },
+  {
+    "name": "Moravská Ostrava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Moravská Třebová",
+    "schoolCount": 4
+  },
+  {
+    "name": "Moravský Krumlov",
+    "schoolCount": 3
+  },
+  {
+    "name": "Most",
+    "schoolCount": 13
+  },
+  {
+    "name": "Mostek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mostkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mosty u Jablunkova",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mrákov",
+    "schoolCount": 1
+  },
+  {
+    "name": "München - Deutschland",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mutějovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mysločovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Mžany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Načeradec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nahořany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Náchod",
+    "schoolCount": 7
+  },
+  {
+    "name": "Nalžovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Náměšť na Hané",
+    "schoolCount": 1
+  },
+  {
+    "name": "Náměšť nad Oslavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Napajedla",
+    "schoolCount": 2
+  },
+  {
+    "name": "Nasavrky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nehvizdy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nechanice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nejdek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Němčice nad Hanou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Němčice u České Třebové",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nemojov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nemyčeves",
+    "schoolCount": 1
+  },
+  {
+    "name": "Neratovice",
+    "schoolCount": 5
+  },
+  {
+    "name": "Neveklov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nivnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nížkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nová Bystřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nová Cerekev",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nová Paka",
+    "schoolCount": 5
+  },
+  {
+    "name": "Nová Role",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nová Včelnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nová Ves u Chotěboře",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nové Dvory",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nové Hradiště",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nové Město na Moravě",
+    "schoolCount": 4
+  },
+  {
+    "name": "Nové Město nad Metují",
+    "schoolCount": 4
+  },
+  {
+    "name": "Nové Sedlo",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nové Strašecí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Novosedlice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Novosedly",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nový Bor",
+    "schoolCount": 4
+  },
+  {
+    "name": "Nový Bydžov",
+    "schoolCount": 6
+  },
+  {
+    "name": "Nový Jičín",
+    "schoolCount": 3
+  },
+  {
+    "name": "Nový Knín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nový Rychnov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nučice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Nymburk",
+    "schoolCount": 7
+  },
+  {
+    "name": "Obříství",
+    "schoolCount": 1
+  },
+  {
+    "name": "Odolena Voda",
+    "schoolCount": 2
+  },
+  {
+    "name": "Odry",
+    "schoolCount": 1
+  },
+  {
+    "name": "Okrouhlice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Olomouc",
+    "schoolCount": 25
+  },
+  {
+    "name": "Olomouc - Pavlovičky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Olomouc -Klášterní Hradisko",
+    "schoolCount": 1
+  },
+  {
+    "name": "Olomouc-Svatý Kopeček",
+    "schoolCount": 1
+  },
+  {
+    "name": "Opatovice nad Labem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Opava",
+    "schoolCount": 15
+  },
+  {
+    "name": "Opava 6",
+    "schoolCount": 1
+  },
+  {
+    "name": "Opočno",
+    "schoolCount": 1
+  },
+  {
+    "name": "Orlová - Lutyně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Orlová-Lutyně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Osek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Osice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Osoblaha",
+    "schoolCount": 1
+  },
+  {
+    "name": "Osová Bítýška",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava",
+    "schoolCount": 10
+  },
+  {
+    "name": "Ostrava - Dubina",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava - Hrabůvka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava - Hulváky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava - Koblov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava - Kunčičky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava - Mariánské Hory",
+    "schoolCount": 7
+  },
+  {
+    "name": "Ostrava - Petřkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava - Polanka nad Odrou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava - Poruba",
+    "schoolCount": 20
+  },
+  {
+    "name": "Ostrava - Slezská Ostrava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Hošťálkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Hrabůvka",
+    "schoolCount": 8
+  },
+  {
+    "name": "Ostrava-Krásné Pole",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Mar.Hory",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Michálkovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Ostrava-Moravská Ostrava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Nová Bělá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Proskovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Přívoz",
+    "schoolCount": 2
+  },
+  {
+    "name": "Ostrava-Slezská Ostrava",
+    "schoolCount": 3
+  },
+  {
+    "name": "Ostrava-Stará Bělá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Svinov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Vítkovice",
+    "schoolCount": 7
+  },
+  {
+    "name": "Ostrava-Výškovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrava-Zábřeh",
+    "schoolCount": 11
+  },
+  {
+    "name": "Ostravice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostroměř",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ostrov",
+    "schoolCount": 6
+  },
+  {
+    "name": "Osvětimany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Otaslavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Otrokovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Otvice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pacov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Panenský Týnec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pardubice",
+    "schoolCount": 27
+  },
+  {
+    "name": "Pardubice 9",
+    "schoolCount": 1
+  },
+  {
+    "name": "Paskov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pec pod Sněžkou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pecka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pečky",
+    "schoolCount": 2
+  },
+  {
+    "name": "Pehřimov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pelhřimov",
+    "schoolCount": 7
+  },
+  {
+    "name": "Perálec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pernarec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pernink",
+    "schoolCount": 1
+  },
+  {
+    "name": "Peruc",
+    "schoolCount": 1
+  },
+  {
+    "name": "Petrov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Petrovice 196",
+    "schoolCount": 1
+  },
+  {
+    "name": "Petrovice u Karviné",
+    "schoolCount": 2
+  },
+  {
+    "name": "Petřvald u Karviné",
+    "schoolCount": 1
+  },
+  {
+    "name": "Petřvald u Nového Jičína",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pchery",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pilníkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Písek",
+    "schoolCount": 11
+  },
+  {
+    "name": "Planá",
+    "schoolCount": 2
+  },
+  {
+    "name": "Planá nad Lužnicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Plaňany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Plánice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Plasy",
+    "schoolCount": 2
+  },
+  {
+    "name": "Plumlov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Plzeň",
+    "schoolCount": 23
+  },
+  {
+    "name": "Plzeň - Skvrňany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Plzeň-Křimice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Počaply",
+    "schoolCount": 1
+  },
+  {
+    "name": "Podbořany",
+    "schoolCount": 3
+  },
+  {
+    "name": "Poděbrady",
+    "schoolCount": 6
+  },
+  {
+    "name": "Podolí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pohořelice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Polešovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Police nad Metují",
+    "schoolCount": 1
+  },
+  {
+    "name": "Polička",
+    "schoolCount": 5
+  },
+  {
+    "name": "Polná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Popice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Poříčany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Postoloprty",
+    "schoolCount": 1
+  },
+  {
+    "name": "Postupice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Potštejn",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha - Písnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha - Vinoř",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 1",
+    "schoolCount": 19
+  },
+  {
+    "name": "Praha 1 - Nové město",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 1 - Nové Město",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 1 - Staré Město",
+    "schoolCount": 3
+  },
+  {
+    "name": "Praha 1- Nové Město",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10",
+    "schoolCount": 22
+  },
+  {
+    "name": "Praha 10 - Dolní Měcholupy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10 - Dubeč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10 - Kolovraty",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10 - Vršovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10 - Záběhlice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10-Horní Měcholupy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10-Hostivař",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10-Strašnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10-Uhříněves",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 10-Záběhlice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 12 - Modřany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 13-Stodůlky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 14 - Černý Most I",
+    "schoolCount": 1
+  },
+  {
+    "name": "PRAHA 15 - HOSTIVAŘ",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 17 - Řepy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 2",
+    "schoolCount": 22
+  },
+  {
+    "name": "Praha 2 - Vinohrady",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 3",
+    "schoolCount": 15
+  },
+  {
+    "name": "Praha 3 - Žižkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4",
+    "schoolCount": 34
+  },
+  {
+    "name": "Praha 4 - Braník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4 - Hodkovičky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4 - Jižní Město",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4 - Kamýk",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 4 - Krč",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 4 - Libuš",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4 - Michle",
+    "schoolCount": 6
+  },
+  {
+    "name": "Praha 4 - Modřany",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 4 - Nusle",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4 - Opatov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4 - Šeberov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4 Braník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4-Braník",
+    "schoolCount": 3
+  },
+  {
+    "name": "Praha 4-Háje",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4-Jižní Město",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 4-Libuš",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4-Modřany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 4-Nusle",
+    "schoolCount": 3
+  },
+  {
+    "name": "Praha 4-Spořilov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 5",
+    "schoolCount": 22
+  },
+  {
+    "name": "Praha 5 - Hlubočepy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 5 - Jinonice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 5 - Košíře",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 5 - Radotín",
+    "schoolCount": 3
+  },
+  {
+    "name": "Praha 5 - Stodůlky",
+    "schoolCount": 5
+  },
+  {
+    "name": "Praha 5 - Velká Chuchle",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 5 -Velká Chuchle",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 5-Lužiny",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 6",
+    "schoolCount": 19
+  },
+  {
+    "name": "Praha 6 - Dejvice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 6 - Ruzyně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 6 - Řepy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 6 - Veleslavín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 7",
+    "schoolCount": 10
+  },
+  {
+    "name": "Praha 7-Troja",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 8",
+    "schoolCount": 15
+  },
+  {
+    "name": "Praha 8 - Bohnice",
+    "schoolCount": 4
+  },
+  {
+    "name": "Praha 8 - Dolní Chabry",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 8 - Karlín",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 8 - Kobylisy",
+    "schoolCount": 3
+  },
+  {
+    "name": "Praha 8 - Troja",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 8-Bohnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 8-Čimice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 8-Kobylisy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 8-Libeň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 8-Troja",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9",
+    "schoolCount": 19
+  },
+  {
+    "name": "Praha 9 - Černý most",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9 - Dolní Počernice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9 - Horní Počernice",
+    "schoolCount": 4
+  },
+  {
+    "name": "Praha 9 - Hrdlořezy",
+    "schoolCount": 3
+  },
+  {
+    "name": "Praha 9 - Klánovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 9 - Prosek",
+    "schoolCount": 4
+  },
+  {
+    "name": "Praha 9 - Střížkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9 - Vysočany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9-Čakovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Praha 9-Černý Most",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9-Kbely",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9-Lehovec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9-Letňany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9-Újezd nad Lesy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Praha 9-Vysočany",
+    "schoolCount": 3
+  },
+  {
+    "name": "Praha-Letňany",
+    "schoolCount": 3
+  },
+  {
+    "name": "Prachatice",
+    "schoolCount": 5
+  },
+  {
+    "name": "Prachovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Prakšice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Proboštov u Teplic",
+    "schoolCount": 1
+  },
+  {
+    "name": "Proseč u Skutče",
+    "schoolCount": 1
+  },
+  {
+    "name": "Prostějov",
+    "schoolCount": 18
+  },
+  {
+    "name": "Prostějov 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Prostějov 6",
+    "schoolCount": 1
+  },
+  {
+    "name": "Prostřední Bečva",
+    "schoolCount": 1
+  },
+  {
+    "name": "Protivanov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Prštice u Brna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Průhonice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Prušánky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Přáslavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Předměřice nad Jizerou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Předměřice nad Labem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Přelouč",
+    "schoolCount": 3
+  },
+  {
+    "name": "Přemyslovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Přerov",
+    "schoolCount": 9
+  },
+  {
+    "name": "Přerov nad Labem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Přeštice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Příbor",
+    "schoolCount": 2
+  },
+  {
+    "name": "Příbram",
+    "schoolCount": 7
+  },
+  {
+    "name": "Příbram I",
+    "schoolCount": 1
+  },
+  {
+    "name": "Příbram II",
+    "schoolCount": 3
+  },
+  {
+    "name": "Příbram IV",
+    "schoolCount": 1
+  },
+  {
+    "name": "Příbram VII",
+    "schoolCount": 1
+  },
+  {
+    "name": "Příkazy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Příšovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Pstruží",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ptení",
+    "schoolCount": 1
+  },
+  {
+    "name": "Puklice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Radějov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Radim u Kolína",
+    "schoolCount": 1
+  },
+  {
+    "name": "Radiměř",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rádlo",
+    "schoolCount": 1
+  },
+  {
+    "name": "Radomyšl",
+    "schoolCount": 1
+  },
+  {
+    "name": "Radonice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Radostín nad Oslavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Raduň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rajhrad",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rakovník",
+    "schoolCount": 9
+  },
+  {
+    "name": "Rapotín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rapšach",
+    "schoolCount": 1
+  },
+  {
+    "name": "Raspenava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Raškovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ratíškovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rohovládova Bělá",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rokycany",
+    "schoolCount": 4
+  },
+  {
+    "name": "Rokytnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rokytnice nad Jizerou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ronov nad Doubravou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ropice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rosice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rosice u Chrasti",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rotava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Roudnice nad Labem",
+    "schoolCount": 4
+  },
+  {
+    "name": "Rovensko pod Troskami",
+    "schoolCount": 1
+  },
+  {
+    "name": "Roztoky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rožďalovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rožmitál pod Třemšínem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rožnov pod Radhoštěm",
+    "schoolCount": 7
+  },
+  {
+    "name": "Rtyně v Podkrkonoší",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ruda nad Moravou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rudná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rudník",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rudolfov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rumburk",
+    "schoolCount": 2
+  },
+  {
+    "name": "Rychnov nad Kněžnou",
+    "schoolCount": 3
+  },
+  {
+    "name": "Rýmařov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Rynárec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Rynoltice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Řečany nad Labem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Řehlovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Řevnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Říčany",
+    "schoolCount": 7
+  },
+  {
+    "name": "Říčany u Prahy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sadská",
+    "schoolCount": 2
+  },
+  {
+    "name": "Sadská 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Seč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sedlčany",
+    "schoolCount": 3
+  },
+  {
+    "name": "Sedlec",
+    "schoolCount": 2
+  },
+  {
+    "name": "Sedlec-Prčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sedlice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sedliště",
+    "schoolCount": 1
+  },
+  {
+    "name": "Semčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Semice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Semily",
+    "schoolCount": 5
+  },
+  {
+    "name": "Senice na Hané",
+    "schoolCount": 1
+  },
+  {
+    "name": "Senohraby",
+    "schoolCount": 1
+  },
+  {
+    "name": "Senomaty",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sepekov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sezemice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sezimovo Ústí",
+    "schoolCount": 3
+  },
+  {
+    "name": "Skřipov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Skuhrov nad Bělou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Skuteč",
+    "schoolCount": 2
+  },
+  {
+    "name": "Slabce",
+    "schoolCount": 1
+  },
+  {
+    "name": "Slaný",
+    "schoolCount": 4
+  },
+  {
+    "name": "Slapy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Slatina nad Zdobnicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Slatiňany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Slavkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Slavkov u Brna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Slezská Ostrava",
+    "schoolCount": 1
+  },
+  {
+    "name": "Slušovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Smečno",
+    "schoolCount": 1
+  },
+  {
+    "name": "Smidary",
+    "schoolCount": 1
+  },
+  {
+    "name": "Smilovice u Třince",
+    "schoolCount": 1
+  },
+  {
+    "name": "Smiřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Smržice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Smržovka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sněžné",
+    "schoolCount": 1
+  },
+  {
+    "name": "Soběchleby",
+    "schoolCount": 1
+  },
+  {
+    "name": "Soběslav",
+    "schoolCount": 6
+  },
+  {
+    "name": "Sobíňov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sobotka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sokolnice u Brna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sokolov",
+    "schoolCount": 8
+  },
+  {
+    "name": "Sopotnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Srubec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stachy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Staňkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stará Červená Voda",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stará Paka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stará Ves",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stará Ves nad Ondřejnicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Staré Město",
+    "schoolCount": 2
+  },
+  {
+    "name": "Staré Město nad Metují",
+    "schoolCount": 1
+  },
+  {
+    "name": "Starý Kolín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stařeč",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stod",
+    "schoolCount": 2
+  },
+  {
+    "name": "Stochov",
+    "schoolCount": 3
+  },
+  {
+    "name": "Strakonice",
+    "schoolCount": 7
+  },
+  {
+    "name": "Strančice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Strání",
+    "schoolCount": 1
+  },
+  {
+    "name": "Strašice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Straškov-Vodochody",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stráž pod Ralskem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Strážnice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Strážný",
+    "schoolCount": 1
+  },
+  {
+    "name": "Strmilov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Struhařov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Strýčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Středokluky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Střelice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Stříbro",
+    "schoolCount": 4
+  },
+  {
+    "name": "Studená",
+    "schoolCount": 1
+  },
+  {
+    "name": "Studénka",
+    "schoolCount": 3
+  },
+  {
+    "name": "Sudoměřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Suchdol",
+    "schoolCount": 1
+  },
+  {
+    "name": "Suchdol nad Lužnicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sulice - Želivec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Supíkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Sušice",
+    "schoolCount": 3
+  },
+  {
+    "name": "Sušice 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Světlá nad Sázavou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Svitavy",
+    "schoolCount": 7
+  },
+  {
+    "name": "Svoboda nad Úpou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Svratka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Svratouch",
+    "schoolCount": 1
+  },
+  {
+    "name": "Syrovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šanov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šatov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šenov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šenov u Nového Jičína",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šestajovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šilheřovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Šlapanice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šluknov",
+    "schoolCount": 3
+  },
+  {
+    "name": "Špindlerův Mlýn",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šťáhlavy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Štěchovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Štěkeň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Štěpánov nad Svratkou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Štěpánovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Štětí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Štítina",
+    "schoolCount": 1
+  },
+  {
+    "name": "Štíty",
+    "schoolCount": 2
+  },
+  {
+    "name": "Štramberk",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šumavské Hoštice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šumná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Šumperk",
+    "schoolCount": 8
+  },
+  {
+    "name": "Šumvald",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tábor",
+    "schoolCount": 7
+  },
+  {
+    "name": "Tábor 2",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tachov",
+    "schoolCount": 4
+  },
+  {
+    "name": "Tanvald",
+    "schoolCount": 3
+  },
+  {
+    "name": "Tečovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Telč",
+    "schoolCount": 2
+  },
+  {
+    "name": "Teplice",
+    "schoolCount": 15
+  },
+  {
+    "name": "Teplice - Trnovany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Teplice nad Metují",
+    "schoolCount": 2
+  },
+  {
+    "name": "Terezín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Těrlicko",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tetín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tišnov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tištín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tlučná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tlumačov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tmaň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tochovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Topolná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tovačov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Traplice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Trhová Kamenice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Trhové Sviny",
+    "schoolCount": 3
+  },
+  {
+    "name": "Trstěnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tršice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Trutnov",
+    "schoolCount": 11
+  },
+  {
+    "name": "Trutnov 3",
+    "schoolCount": 1
+  },
+  {
+    "name": "Třebařov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Třebechovice pod Orebem",
+    "schoolCount": 2
+  },
+  {
+    "name": "Třebenice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Třebíč",
+    "schoolCount": 5
+  },
+  {
+    "name": "Třeboň",
+    "schoolCount": 6
+  },
+  {
+    "name": "Třebovle",
+    "schoolCount": 1
+  },
+  {
+    "name": "Třemošnice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Třešť",
+    "schoolCount": 4
+  },
+  {
+    "name": "Třinec",
+    "schoolCount": 7
+  },
+  {
+    "name": "Třinec - Staré Město",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tučapy",
+    "schoolCount": 2
+  },
+  {
+    "name": "Tuchlovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tuchořice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tuněchody",
+    "schoolCount": 1
+  },
+  {
+    "name": "Tupesy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Turnov",
+    "schoolCount": 7
+  },
+  {
+    "name": "Týnec nad Sázavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Týniště nad Orlicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Údlice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Uherské Hradiště",
+    "schoolCount": 12
+  },
+  {
+    "name": "Uherské Hradiště - Mařatice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Uherský Brod",
+    "schoolCount": 6
+  },
+  {
+    "name": "Uherský Brod - Havřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Uherský Ostroh",
+    "schoolCount": 1
+  },
+  {
+    "name": "Uhlířské Janovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Újezd u Brna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Unhošť",
+    "schoolCount": 1
+  },
+  {
+    "name": "Uničov",
+    "schoolCount": 2
+  },
+  {
+    "name": "Unkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Úpice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Určice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ústí nad Labem",
+    "schoolCount": 22
+  },
+  {
+    "name": "Ústí nad Labem - Neštěmice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ústí nad Labem 11",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ústí nad Labem-Dobětice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Ústí nad Orlicí",
+    "schoolCount": 7
+  },
+  {
+    "name": "Úštěk",
+    "schoolCount": 1
+  },
+  {
+    "name": "Úvaly",
+    "schoolCount": 2
+  },
+  {
+    "name": "Vacenovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Václavovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Valašská Polanka",
+    "schoolCount": 2
+  },
+  {
+    "name": "Valašské Klobouky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Valašské Meziříčí",
+    "schoolCount": 8
+  },
+  {
+    "name": "Vamberk",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vápenná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Varnsdorf",
+    "schoolCount": 9
+  },
+  {
+    "name": "Včelákov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velehrad",
+    "schoolCount": 2
+  },
+  {
+    "name": "Velemín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velešín",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velichovky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velim",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velká Bíteš",
+    "schoolCount": 3
+  },
+  {
+    "name": "Velká Bystřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velká Hleďsebe",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velká nad Veličkou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Bílovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Březno",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Hamry",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Heraltice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Karlovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Meziříčí",
+    "schoolCount": 3
+  },
+  {
+    "name": "Velké Němčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Opatovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Pavlovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Popovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velké Poříčí",
+    "schoolCount": 2
+  },
+  {
+    "name": "Velké Přílepy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velký Beranov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velký Borek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velký Osek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Velký Újezd",
+    "schoolCount": 2
+  },
+  {
+    "name": "Veltrusy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vendryně",
+    "schoolCount": 1
+  },
+  {
+    "name": "Verneřice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Veselí nad Lužnicí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Veselí nad Moravou",
+    "schoolCount": 3
+  },
+  {
+    "name": "Větrný Jeníkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Větřní",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vidče",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vidochov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vilémov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vimperk",
+    "schoolCount": 3
+  },
+  {
+    "name": "Vintířov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Višňové",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vítězná",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vítkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vizovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Vlachovo Březí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vlašim",
+    "schoolCount": 3
+  },
+  {
+    "name": "Vlčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vlkoš u Přerova",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vnorovy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vodňany",
+    "schoolCount": 5
+  },
+  {
+    "name": "Vojkovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Volenice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Volyně",
+    "schoolCount": 3
+  },
+  {
+    "name": "Votice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Vraclav",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vranov nad Dyjí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vranovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vraný",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrapice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vratimov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrbátky",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrbno pod Pradědem",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrbovec",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrdy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrchlabí",
+    "schoolCount": 5
+  },
+  {
+    "name": "Vrchlabí 1",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrchoslavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vrchotovy Janovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vroutek",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vřesovice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vsetín",
+    "schoolCount": 8
+  },
+  {
+    "name": "Všenory",
+    "schoolCount": 1
+  },
+  {
+    "name": "Všetaty",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vysoké Mýto",
+    "schoolCount": 2
+  },
+  {
+    "name": "Vysoké nad Jizerou",
+    "schoolCount": 2
+  },
+  {
+    "name": "Vysoké Veselí",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vysoký Újezd",
+    "schoolCount": 1
+  },
+  {
+    "name": "Vyškov",
+    "schoolCount": 8
+  },
+  {
+    "name": "Zábřeh",
+    "schoolCount": 4
+  },
+  {
+    "name": "Záhoří",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zaječov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zákupy",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zásada",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zastávka",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zastávka u Brna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zašová",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zátor",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zbraslav",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zbraslavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zdíkov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zdislavice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zhoř",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zlatá Koruna",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zlaté Hory",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zlín",
+    "schoolCount": 15
+  },
+  {
+    "name": "Zlín - Kudlov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zlín - Malenovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Znojmo",
+    "schoolCount": 10
+  },
+  {
+    "name": "Zruč nad Sázavou",
+    "schoolCount": 1
+  },
+  {
+    "name": "Zvole",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žabčice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žacléř",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žalany",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žamberk",
+    "schoolCount": 4
+  },
+  {
+    "name": "Žandov",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žatec",
+    "schoolCount": 8
+  },
+  {
+    "name": "Žďár nad Sázavou",
+    "schoolCount": 7
+  },
+  {
+    "name": "Žehuň",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žehušice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Želešice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Želetice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Železná Ruda",
+    "schoolCount": 1
+  },
+  {
+    "name": "Železnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Železný Brod",
+    "schoolCount": 3
+  },
+  {
+    "name": "Žeravice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Židlochovice",
+    "schoolCount": 2
+  },
+  {
+    "name": "Žirovnice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žiželice",
+    "schoolCount": 1
+  },
+  {
+    "name": "Žulová",
+    "schoolCount": 1
+  }
+]

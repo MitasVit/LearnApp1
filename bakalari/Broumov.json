@@ -1,0 +1,25 @@
+{
+  "name": "Broumov",
+  "schools": [
+    {
+      "id": "SYDATAAADD",
+      "name": "Gymnázium Broumov, Hradební 218",
+      "schoolUrl": "https://gybroumov.bakalari.cz/"
+    },
+    {
+      "id": "SYDATAACTS",
+      "name": "Základní škola a Praktická škola, Broumov",
+      "schoolUrl": "https://zvsbroumov.bakalari.cz"
+    },
+    {
+      "id": "SYDATAACPF",
+      "name": "Masarykova základní škola Broumov, Komenského 312",
+      "schoolUrl": "https://www.masarykovazsbakalari.cz/bakaweb"
+    },
+    {
+      "id": "SYDATAADCA",
+      "name": "Základní škola Hradební, Broumov",
+      "schoolUrl": "https://zshrbroumov.bakalari.cz/"
+    }
+  ]
+}

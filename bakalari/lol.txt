@@ -1,0 +1,7 @@
+if(itr2->name.IsString()){
+                cout << itr2->name.GetString() << endl;
+            }else if(itr2->name.IsArray()){
+                cout << "araj" << endl;
+            }else if(itr2->name.IsObject()){
+                cout << "objekt" << endl;
+            }

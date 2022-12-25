@@ -1,0 +1,115 @@
+if ((!*show_connect)&&(!*show_tools)&&(!*show_settings))
+			{
+
+				ImGui::SetNextWindowPos(ImVec2(500, 400));
+				ImGui::BeginChild(1, ImVec2(200, 200), false, wflags2);
+				if (ImGui::ImageButton((void *)(intptr_t)settings.GetID(), ImVec2(190, 190)))
+				{
+					*show_settings = true;
+				}
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(500, 610));
+				ImGui::BeginChild(2, ImVec2(200, 50), false, wflags2);
+				ImGui::Text("Settings");
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(500, 100));
+				ImGui::BeginChild(3, ImVec2(200, 200), false, wflags2);
+				if (ImGui::ImageButton((void *)(intptr_t)tools.GetID(), ImVec2(190, 190)))
+				{
+					*show_tools = true;
+				}
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(500, 310));
+				ImGui::BeginChild(4, ImVec2(200, 50), false, wflags2);
+				ImGui::Text("Nástroje");
+				ImGui::EndChild();
+
+
+				ImGui::SetNextWindowPos(ImVec2(800, 100));
+				ImGui::BeginChild(5, ImVec2(200, 200), false, wflags2);
+				if (ImGui::ImageButton((void *)(intptr_t)refresh.GetID(), ImVec2(190, 190)))
+				{
+					test.print("jo3");
+					*show_main_menu = false;
+					*show_text_editor = true;
+				}
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(800, 310));
+				ImGui::BeginChild(6, ImVec2(200, 50), false, wflags2);
+				ImGui::Text("Refresh");
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(800, 400));
+				ImGui::BeginChild(7, ImVec2(200, 200), false, wflags2);
+				if (ImGui::ImageButton((void *)(intptr_t)con.GetID(), ImVec2(190, 190)))
+				{
+					test.print("propojeni");
+					*show_connect = true;
+				}
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(800, 610));
+				ImGui::BeginChild(8, ImVec2(200, 50), false, wflags2);
+				ImGui::Text("Propojení");
+				ImGui::EndChild();
+			}
+			else if(*show_connect)
+			{
+				ShowButtonChild(ImVec2(500, 100), undo, "Zpět",9, show_settings, show_connect, show_tools);
+				ImGui::SetNextWindowPos(ImVec2(500, 400));
+				ImGui::BeginChild(9, ImVec2(200, 200), false, wflags2);
+				if (ImGui::ImageButton((void *)(intptr_t)spotify.GetID(), ImVec2(190, 190)))
+				{
+					test.print("spotiufy");
+				}
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(500, 610));
+				ImGui::BeginChild(10, ImVec2(200, 50), false, wflags2);
+				ImGui::Text("Spotify");
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(800, 100));
+				ImGui::BeginChild(13, ImVec2(200, 200), false, wflags2);
+				if (ImGui::ImageButton((void *)(intptr_t)google.GetID(), ImVec2(190, 190)))
+				{
+					test.print("google");
+				}
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(800, 310));
+				ImGui::BeginChild(14, ImVec2(200, 50), false, wflags2);
+				ImGui::Text("Google");
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(800, 400));
+				ImGui::BeginChild(7, ImVec2(200, 200), false, wflags2);
+				if (ImGui::ImageButton((void *)(intptr_t)teams.GetID(), ImVec2(190, 190)))
+				{
+					test.print("teams");
+				}
+				ImGui::EndChild();
+
+				ImGui::SetNextWindowPos(ImVec2(800, 610));
+				ImGui::BeginChild(8, ImVec2(200, 50), false, wflags2);
+				ImGui::Text("Teams");
+				ImGui::EndChild();
+				
+			}
+			else if(*show_tools)
+			{
+				ShowButtonChild(ImVec2(500, 100), undo, "Zpět",9, show_settings, show_connect, show_tools);
+
+				ImGui::PushFont(fonts[3][1]);
+				ImGui::Text("zatim se pripravuje");
+				ImGui::PopFont();
+			}
+			else if(*show_settings)
+			{
+				ShowButtonChild(ImVec2(500, 100), undo, "Zpět",10, show_settings, show_connect, show_tools);
+			}
+			ImGui::End();

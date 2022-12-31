@@ -90,11 +90,11 @@ public:
   //ziskani ukolu curl -H "Content-Type: application/x-www-form-urlencoded" -H "Authorization: Bearer " https://bakalari.gympolicka.cz/api/3/homeworks
 
   //ziskani akt. rozvrhu curl -H "Content-Type: application/x-www-form-urlencoded" -H "Authorization: Bearer ACCESS_TOKEN" https://bakalari.gympolicka.cz/api/3/timetable/actual?date=YYYY-MM-dd
-
+  string schoolurl;
   string username, password, atoken;//atoken - bearer
   string fullname, classname, classabbrev, usertype, usertypetext;
 
-  void Login(string _uname, string _upass);
+  bool Login(string _uname, string _upass, string *error=NULL, string *errordes=NULL);
   void WriteUserInfo(string path);
   void WriteLogin(string _uname, string _upass, string path);
   void LoadUserInfo(string path);
@@ -120,7 +120,7 @@ public:
   //cityname must be a html string
   void GetSchools(string path, string cityname);
 
-
+  void SetSchoolUrl(string schoolurl_);
   string GetAccesToken();
 
 };

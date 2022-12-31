@@ -14,16 +14,19 @@ g++ -c lib/imgui/imgui_impl_glfw.cpp -o imgui_impl_glfw.o
 g++ -c lib/imgui/imgui_draw.cpp -o imgui_draw.o
 g++ -c lib/imgui/imgui_impl_opengl3.cpp -o imgui_impl_opengl3.o
 g++ -c lib/imgui/imgui_tables.cpp -o imgui_tables.o
+g++ -c -I %inc_dir% -I %inc_dir2% -I %inc_dir3% -I %inc_dir4% -I %inc_dir5% -I %inc_dir6% lib/stb/stb.cpp -o stb.o
 g++ -c -I %inc_dir% -I %inc_dir2% -I %inc_dir3% -I %inc_dir4% -I %inc_dir5% -I %inc_dir6% inc/utils.cpp -o utils.o
 g++ -c -I %inc_dir% -I %inc_dir2% -I %inc_dir3% -I %inc_dir4% -I %inc_dir5% -I %inc_dir6% lib/base64.cpp -o base64.o
-mv glad.o win
-mv pugixml.o win
-mv imgui_widgets.o win
-mv imgui.o win
-mv imgui_impl_glfw.o win
-mv imgui_draw.o win
-mv imgui_impl_opengl3.o win
-mv imgui_tables.o win
-mv utils.o win
-mv base64.o win
+move glad.o win
+move pugixml.o win
+move imgui_widgets.o win
+move imgui.o win
+move imgui_impl_glfw.o win
+move imgui_draw.o win
+move imgui_impl_opengl3.o win
+move imgui_tables.o win
+move utils.o win
+move base64.o win
+move stb.o win
+pause
 exit

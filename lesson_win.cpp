@@ -12,13 +12,16 @@
 #include <GLFW/glfw3.h>
 #include <math.h>
 #include <inc/lesson.h>
-
-#define STB_IMAGE_IMPLEMENTATION
 #include <stb/stb_image.h>
 
-#include "utils.h"
 
+#include "utils.h"
 #include "bakalari/bakalari.h"
+#include "lib/svgrender.h"
+#include "lib/uielements.h"
+
+#include <sys/stat.h>
+#include <string>
 
 // Vertex Shader source code
 const char* vertexShaderSource = "#version 330 core\n"
@@ -38,110 +41,6 @@ const char* fragmentShaderSource = "#version 330 core\n"
 "}\n\0";
 
 using namespace std;
-
-class ImTexture{
-public:
-	int width, height;
-	GLuint id;
-
-	ImTexture(string path){
-		// Assigns the type of the texture ot the texture object
-
-	// Stores the width, height, and the number of color channels of the image
-	int widthImg, heightImg, numColCh;
-	// Flips the image so it appears right side up
-	//stbi_set_flip_vertically_on_load(true);
-	
-	// Reads the image from a file and stores it in bytes
-	unsigned char* bytes = stbi_load(path.c_str(), &widthImg, &heightImg, &numColCh, 0);
-	width = widthImg;
-	height = heightImg;
-	// Generates an OpenGL texture object
-	glGenTextures(1, &id);
-	// Assigns the texture to a Texture Unit
-	glActiveTexture(GL_TEXTURE0 + 1);
-	glBindTexture(GL_TEXTURE_2D, id);
-
-	// Configures the type of algorithm that is used to make the image smaller or bigger
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-	//glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-	// Configures the way the texture repeats (if it does at all)
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-
-	// Extra lines in case you choose to use GL_CLAMP_TO_BORDER
-	// float flatColor[] = {1.0f, 1.0f, 1.0f, 1.0f};
-	// glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, flatColor);
-
-	// Check what type of color channels the texture has and load it accordingly
-	if (numColCh == 4)
-		glTexImage2D
-		(
-			GL_TEXTURE_2D,
-			0,
-			GL_RGBA,
-			widthImg,
-			heightImg,
-			0,
-			GL_RGBA,
-			GL_UNSIGNED_BYTE,
-			bytes
-		);
-	else if (numColCh == 3)
-		glTexImage2D
-		(
-			GL_TEXTURE_2D,
-			0,
-			GL_RGBA,
-			widthImg,
-			heightImg,
-			0,
-			GL_RGB,
-			GL_UNSIGNED_BYTE,
-			bytes
-		);
-	else if (numColCh == 1)
-		glTexImage2D
-		(
-			GL_TEXTURE_2D,
-			0,
-			GL_RGBA,
-			widthImg,
-			heightImg,
-			0,
-			GL_RED,
-			GL_UNSIGNED_BYTE,
-			bytes
-		);
-	else
-		throw std::invalid_argument("Automatic Texture type recognition failed");
-
-	// Generates MipMaps
-	glGenerateMipmap(GL_TEXTURE_2D);
-
-	// Deletes the image data as it is already in the OpenGL Texture object
-	stbi_image_free(bytes);
-
-	// Unbinds the OpenGL Texture object so that it can't accidentally be modified
-	glBindTexture(GL_TEXTURE_2D, 0);
-	}
-
-	int GetWidth(){
-		return width;
-	}
-
-	int GetHeight(){ 
-		return height;
-	}
-
-	GLuint GetID(){
-		return id;
-	}
-
-};
-
 
 bool *show_testing = new bool(false);
 bool *show_main = new bool(false);
@@ -370,6 +269,17 @@ static void ShowPlaceholderObject(const char* prefix)
     //ImGui::PopID();
 }
 
+
+// Function to get the size of a file
+int get_file_size(const std::string &filename) {
+  struct stat st;
+  if (stat(filename.c_str(), &st) == 0) {
+    return st.st_size;
+  }
+  return -1;
+}
+
+
 ImVector<ImWchar> ranges;
 ImFontGlyphRangesBuilder builder;
 char path[256] = "test.xml";
@@ -429,8 +339,50 @@ const char*fromsp(char odkaz[128]){
 	return tmp.c_str();
 }
 
+struct color32{
+	int r;
+	int g;
+	int b;
+	int a;
+};
+
+color32 ExtractIM_COL32(ImU32 color){
+	// Extract the red channel (8 bits)
+int r = (color & 0xFF000000) >> 24;
+
+// Extract the green channel (8 bits)
+int g = (color & 0x00FF0000) >> 16;
+
+// Extract the blue channel (8 bits)
+int b = (color & 0x0000FF00) >> 8;
+
+// Extract the alpha channel (8 bits)
+int a = (color & 0x000000FF);
+	return color32{r,g,b,a};
+}
+
+std::string char128_str(char arr[128])
+{
+    // Convert the char array to a string using the string constructor
+    return std::string(arr);
+}
+
+std::string XORencrypt(std::string message, char key) {
+  for (int i = 0; i < message.size(); i++) {
+    message[i] = message[i] ^ key;
+  }
+  return message;
+}
+
+std::string XORdecrypt(std::string message, char key) {
+  return XORencrypt(message, key);
+}
+
+
+
 int main()
 {
+	cout << "AAAAA21" <<endl;
 	// Initialize GLFW
 	glfwInit();
 
@@ -674,7 +626,7 @@ int main()
 	wflags2 |= ImGuiWindowFlags_NoTitleBar;
 	wflags2 |= ImGuiWindowFlags_NoScrollbar;
 
-	ImFont* jmeno = LoadRoboto2(io2, "Bold", 21.0f), *ucet= LoadRoboto2(io2, "Medium", 14.0f), *datum= LoadRoboto2(io2, "Regular", 16.0f);
+	ImFont* jmeno = LoadRoboto2(io2, "Bold", 20.0f), *ucet= LoadRoboto2(io2, "Medium", 14.0f), *datum= LoadRoboto2(io2, "Regular", 16.0f);
 
 	ImVec4 norm = {0.7,0.5,0.0, 1.0f}, hov = {0.8,0.6,0.1, 1.0f};
 
@@ -683,7 +635,6 @@ int main()
 	ImTexture tools("../res/img/tools.png"), settings("../res/img/settings.png"), bakalari("../res/img/bakalari.png"), account("../res/img/account.png");
 	ImTexture backg("../res/img/background.jpg"), spotify2("../res/img/spotify2.png");
 	ImTexture spotifydown("../res/img/spotifydown.png"), youtubedown("../res/img/youtubedown.jpeg"), deepl("../res/img/deepl.png");
-	ImTexture bg("../res/img/lights.png");
 
 
 	bool is_account_hovered = false;
@@ -700,15 +651,28 @@ int main()
 	8 - spotify downloader
 	9 - youtube downloader
 	10 - convertor
+	11 - bakalari login
 	
 	*/
 	int show_menu_part = 0;
 
 
 	BakalariUser ja;
-	ja.Login("070401zvcj", "Pomezi77");
-	TimeTable actimetable = ja.GetActTimeTable2("actimetable.json", "2022-10-14");
-	int maxtimetablesize = MaxWTable(actimetable)-1;
+	ja.SetSchoolUrl("bakalari.gympolicka.cz");
+	bool is_logged = false;
+	string name="", pass="";
+	bool is_timetable_loaded = false;
+	TimeTable actimetable;
+	int maxtimetablesize = 0;
+	
+	//only one time login
+	string bak_err=" ", bak_err_des=" ";//errors
+	ImVec4 red = ImVec4(1.0,0,0,1.0);
+	ImFont* font_err = LoadRoboto2(io2, "Bold", 18.0f);
+	static char username[32];
+    static char password[32];
+	static char surl[164] = "bakalari.gympolicka.cz\0";
+	bool checked = false;
 
 	const char *dny[7] = {
 					"Pondělí",
@@ -722,15 +686,24 @@ int main()
 
 	char yt_video[64] = " ", sp_pisen[128]=" ";
 
+	ImFont* account_font = LoadRoboto2(io2, "Bold", 20.0f);
+
+	Text panel_name(ImVec2(1243, 20), "Mitáš Vít", account_font, IM_COL32(255,255,255,255)), panel_acc(ImVec2(1243, 20), "My account", ucet, IM_COL32(255,255,255,255));
+	Rect panel(ImVec2(1378, 72), ImVec2(0,0), IM_COL32(0,0,28,255), 0, true);
+	Img panel_account_img(ImVec2(50,50), ImVec2(1323, 10), "../res/img/account.png");
+	Img background(ImVec2(1378, 780), ImVec2(0,0), "../res/img/lights.png");
+
+	double curx = 0, cury = 0;
+
+
+	ofstream log("log.txt");
 
 	
 
 	// Main while loop
 	while (!glfwWindowShouldClose(window))
 	{	
-		// Specify the color of the background
 		glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
-		// Clean the back buffer and assign the new color to it
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		// Tell OpenGL a new frame is about to begin
@@ -738,18 +711,18 @@ int main()
 		ImGui_ImplGlfw_NewFrame();
 		ImGui::NewFrame();
 
-		glfwGetWindowSize(window, &wwidth, &wheight);
-
-		//test
-		ImGui::GetBackgroundDrawList()->AddImage((void *)(intptr_t)backg.GetID(), ImVec2(0,0), ImVec2(wwidth,wwidth));
+		//ImGui::GetBackgroundDrawList()->AddImage((void *)(intptr_t)backg.GetID(), ImVec2(0,0), ImVec2(wwidth,wwidth));
 		//rgba(0, 0, 28, 1)
 		ImGui::GetStyle().Colors[ImGuiCol_WindowBg] = ImVec4(0,0,0.109,0);
 		ImGui::GetStyle().Colors[ImGuiCol_ChildBg] = ImVec4(0,0,0.109,0);
 		ImGui::GetStyle().Colors[ImGuiCol_Button] = ImVec4(0,0,0.109,255);
 		ImGui::GetStyle().Colors[ImGuiCol_ButtonHovered] = ImVec4(0,0,0.109,255);
 		ImGui::GetStyle().FrameRounding = 10.0f;
-				//ImGui::PushStyleVar(ImGuiStyleVar_ChildRounding, ImVec2(5,5));
-		//ImGuiCol_ChildBg
+
+		glfwGetCursorPos(window, &curx, &cury);
+		ImVec2 cursorpos = ImVec2(curx, cury);
+		glfwGetWindowSize(window, &wwidth, &wheight);
+
 		if (*show_main_menu)
 		{
 
@@ -764,78 +737,53 @@ int main()
 			//drawing the menu
 			ImDrawList *drawlist = ImGui::GetForegroundDrawList(), *drawlist2 = ImGui::GetBackgroundDrawList();
 
-			
-			drawlist2->AddImage((void *)(intptr_t)bg.GetID(), ImVec2(0,0), ImVec2(1370,700));
-
 			ImGui::SetNextWindowPos(ImVec2(0, 0));
 			ImGui::SetNextWindowSize(ImVec2(wwidth+20, 90));
 			ImGui::BeginChild("panel", ImVec2(wwidth+20, 90), true);
+
+			//background.SetSize(ImVec2(wwidth, wheight));
+			//background.Draw(drawlist);
 			
-			ImVec2 vMin = ImGui::GetWindowContentRegionMin(); // left up corner
-			ImVec2 vMax = ImGui::GetWindowContentRegionMax(); // right down corner
-			vMin.x += ImGui::GetWindowPos().x;
-			vMin.y += ImGui::GetWindowPos().y;
-			vMax.x += ImGui::GetWindowPos().x;
-			vMax.y += ImGui::GetWindowPos().y;
-			//ImGui::GetForegroundDrawList()->AddRect(vMin, vMax, IM_COL32(255, 255, 0, 255));
-			ImVec4 col = ImGui::GetStyle().Colors[ImGuiCol_FrameBg];
-			col.x -= 0.1;
-			col.y -= 0.1;
-			col.z -= 0.1;
-			const ImU32 color = ImColor(col);
-			ImVec2 p1 = vMax;
-			p1.x = 5;
-			vMax.x = vMax.x - 25;
-			p1.y = p1.y - 13;
-			vMax.y = vMax.y - 13;
+			
+			//computing responsive sizes + positions
+			int zprava = (wheight / 100) * 11 + (wwidth / 100) * 3;//rightmargin
+			ImVec2 size = get_text_size(panel_name.font, panel_name.text.c_str());
 
-			ImVec2 ac_image_leftup =ImVec2(wwidth-55, 10), ac_image_rightdown = ImVec2((wwidth-55 )+50, 10+50);
+			panel_name.SetPos((wwidth - size.x) - zprava, (wheight/100) * 4);
+			//x: width - (size.width + zprava)
+			//y: 4% z height
 
-			//drawlist->AddLine(p1,vMax, IM_COL32(255, 255, 0, 255));//zluta cara
-			//rgba(0,0,28,255)
-			drawlist2->AddRectFilled(ImVec2(0,0), ImVec2(wwidth, 72), IM_COL32(0,0,28,255));
-			drawlist->AddImage((void *)(intptr_t)account.GetID(),ac_image_leftup, ac_image_rightdown );
-			ImGui::PushFont(jmeno);
-			drawlist->AddText(ImVec2(wwidth-145+10, 10+10), IM_COL32(255,255,255,255), "Mitáš Vít");
-			ImGui::PopFont();
-			ImGui::PushFont(ucet);
-			drawlist->AddText(ImVec2(wwidth-145+10, 30+10), IM_COL32(255,255,255,255), "Můj účet");
-			ImGui::PopFont();
-				/*ImGui::SetNextWindowPos(ImVec2(wwidth-55, 10));
-				ImGui::BeginChild(1, ImVec2(50, 50), false, wflags2);
-				if (ImGui::ImageButton((void *)(intptr_t)account.GetID(), ImVec2(42, 42)))
-				{
-					//po kliknuti na ikonu uctu
-				}
-				ImGui::EndChild();
-				ImGui::SetNextWindowPos(ImVec2(wwidth-145, 10));
-				ImGui::BeginChild(18, ImVec2(90, 60), false, wflags2);
-				ImGui::PushFont(jmeno);
-				ImGui::Text("Mitáš Vít");
-				ImGui::PopFont();
-				ImGui::PushFont(ucet);
-				//ImGui::SliderFloat("w", &colors[ImGuiCol_WindowBg].w, 0.0, 1.1);
-				if(is_account_hovered){
-					ImGui::TextColored(hov, "Můj účet");
-				}else{
-					ImGui::TextColored(norm, "Můj účet");
-				}
-				is_account_hovered = ImGui::IsItemHovered();
-				if(is_account_hovered)
-        		{
-            		if(ImGui::IsMouseReleased( 0 ))
-            		{
-						//kliknuti na muj ucet
-						show_menu_part = 6;
-					}
-				}
-				ImGui::PopFont();
-				ImGui::EndChild();*/
+			panel_acc.SetPos((wwidth - size.x) - zprava, (wheight/100) * 8);
+			//x: width - (size.width + zprava)
+			//y: 8% z height
+
+			panel.SetSize(wwidth, (wheight/100) * 15);
+			//width: width, height: 15% z height
+
+			panel_account_img.SetPos(wwidth-((wheight/100) * 13)-10, 10);
+			//right: 13% z height
+			// margin: (10px + 2% z height) right + top 
+
+			panel_account_img.SetSize((wheight/100) * 13, (wheight/100) * 13);
+			//width: 13% z height
+			//height: 13% z height
+
+			if(panel_acc.IsHovered(cursorpos)){
+				panel_acc.SetCol(IM_COL32(255,0,0,255));
+			}else{
+				panel_acc.SetCol(IM_COL32(255,255,255,255));
+			}
+
+			if(panel_acc.IsClicked(cursorpos)){
+				show_menu_part = 6;
+			}
+
+			panel.Draw(drawlist);
+			panel_account_img.Draw(drawlist);
+			panel_name.Draw(drawlist);
+			panel_acc.Draw(drawlist);
+
 			ImGui::EndChild();
-
-
-
-			//variables for computing
 
 			int x=20, y=80, w = 80, h=560;
 			double cursor_x = 0, cursor_y = 0; 
@@ -865,6 +813,8 @@ int main()
 			drawlist->AddImage((void *)(intptr_t)spotify2.GetID(), image_leftup, image_rightdown);
 			drawlist->AddImage((void *)(intptr_t)bakalari.GetID(), bak_leftup, bak_rightdown);
 
+			//testsvg.Render();
+
 			glfwGetCursorPos(window, &cursor_x, &cursor_y);
 
 			string c = "x: " + to_string(cursor_x) + "- y: " + to_string(cursor_y);
@@ -889,43 +839,9 @@ int main()
 					show_menu_part = 4;
 				}
 				drawlist->AddCircle(ImVec2((bak_leftup.x + bak_width/2), (bak_leftup.y+ bak_height/2)), bak_width/2, IM_COL32(255,0,0,255));
-			}else if(((cursor_x >= ac_left_up.x) && (cursor_y >= ac_left_up.y))
-			 && ((cursor_x <= ac_rightdown.x) && (cursor_y <= ac_rightdown.y)))
-			 {
-				//account text
-				//poc. pos: wwidth-145+10, 30+10
-				//height: +-14
-				ImGui::PushFont(ucet);
-				drawlist->AddText(ImVec2(wwidth-145+10, 30+10), IM_COL32(255,0,0,255), "Můj účet");
-				ImGui::PopFont();
-				if(ImGui::IsMouseClicked(ImGuiMouseButton_Left)){
-					//bakalari button click
-					show_menu_part = 6;
-				}
-				
-			}
-			else if(((cursor_x >= ac_image_leftup.x) && (cursor_y >= ac_image_leftup.y))
-			 && ((cursor_x <= ac_image_rightdown.x) && (cursor_y <= ac_image_rightdown.y)))
-			{
-				//account image
-			 	if(ImGui::IsMouseClicked(ImGuiMouseButton_Left)){
-					//bakalari button click
-					show_menu_part = 6;
-				}
 			}
 
 			ImGui::PopFont();
-
-			/*ImGui::SetNextWindowPos(ImVec2(0, 75));
-			ImGui::SetNextWindowSize(ImVec2(300, wheight));
-			ImGui::BeginChild("Menu2", ImVec2(300, wheight), true);
-			if (ImGui::BeginTable("split", 2, ImGuiTableFlags_BordersOuter | ImGuiTableFlags_Resizable))
-    		{
-            	//ShowPlaceholderObject("Menu");
-            	//ImGui::Separator();
-        		ImGui::EndTable();
-    		}
-			ImGui::EndChild();*/
 			
 			if (show_menu_part == 0)
 			{
@@ -1091,37 +1007,47 @@ int main()
 			else if(show_menu_part == 4)
 			{
 				//bakalari
-				//ShowButtonChild2(ImVec2(500, 100), undo, "Zpět",18, &show_menu_part, 2);
-				ImGui::SetNextWindowPos(ImVec2(300, 100));
-				ImGui::BeginChild(24, ImVec2(800, 500), false, wflags2);
-				drawlist->AddRect(ImVec2(300,100), ImVec2(1100, 600),IM_COL32(0,255,255,255));
-				for(int i = 1; i < (maxtimetablesize+1); i++){
-					//cary od shora dolu
-					drawlist->AddLine(ImVec2(i*(800/maxtimetablesize)+300, 100), ImVec2(i*(800/maxtimetablesize)+300,600), IM_COL32(255,255,255,255));
-					//i*(800/maxtimetablesize)+300, 100)
+				if(is_logged){
+					if(!is_timetable_loaded){
+						actimetable = ja.GetActTimeTable2("actimetable.json", "2022-10-14");
+						maxtimetablesize = MaxWTable(actimetable)-1;
+						is_timetable_loaded = true;
+					}
+					ImGui::SetNextWindowPos(ImVec2(300, 100));
+					ImGui::BeginChild(24, ImVec2(800, 500), false, wflags2);
+					drawlist->AddRect(ImVec2(300,100), ImVec2(1100, 600),IM_COL32(0,255,255,255));
+					for(int i = 1; i < (maxtimetablesize+1); i++){
+						//cary od shora dolu
+						drawlist->AddLine(ImVec2(i*(800/maxtimetablesize)+300, 100), ImVec2(i*(800/maxtimetablesize)+300,600), IM_COL32(255,255,255,255));
+						//i*(800/maxtimetablesize)+300, 100)
 					
-				}
+					}
 				
-				for(int y =1; y < 7; y++){
-					//cary od leva do prava
-					drawlist->AddLine(ImVec2(300,(y*(100))+ 100), ImVec2(1100, (y*(100))+ 100), IM_COL32(255,255,255,255));
-				}
-				for(int y = 1; y < 6; y++){
-					drawlist->AddText(ImVec2(240,(y*(100))+45), IM_COL32(255,255,255,255), dny[y-1]);
-				}
-				for(int x =1; x < (maxtimetablesize+1);x++){
-					for(int y=1;y < 6;y++){
-						if(!actimetable.lessons[y-1][x-1].is_empty){
-							drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+250, (y*(100))+ 45), IM_COL32(255,255,255,255), actimetable.lessons[y-1][x-1].subjectabbrev.c_str());
-							drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+220, (y*(100))+ 15), IM_COL32(255,255,255,255), actimetable.lessons[y-1][x-1].groupabbrev.c_str());
-							drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+270, (y*(100))+ 15), IM_COL32(255,255,255,255), actimetable.lessons[y-1][x-1].roomabbrev.c_str());
-							drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+250, (y*(100)) + 45+40), IM_COL32(255,255,255,255),actimetable.lessons[y-1][x-1].teacherabbrev.c_str());
-							//actimetable.lessons[y-1][x-1].teacherabbrev.c_str()
+					for(int y =1; y < 7; y++){
+						//cary od leva do prava
+						drawlist->AddLine(ImVec2(300,(y*(100))+ 100), ImVec2(1100, (y*(100))+ 100), IM_COL32(255,255,255,255));
+					}
+					for(int y = 1; y < 6; y++){
+						drawlist->AddText(ImVec2(240,(y*(100))+45), IM_COL32(255,255,255,255), dny[y-1]);
+					}
+					for(int x =1; x < (maxtimetablesize+1);x++){
+						for(int y=1;y < 6;y++){
+							if(!actimetable.lessons[y-1][x-1].is_empty){
+								drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+250, (y*(100))+ 45), IM_COL32(255,255,255,255), actimetable.lessons[y-1][x-1].subjectabbrev.c_str());
+								drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+220, (y*(100))+ 15), IM_COL32(255,255,255,255), actimetable.lessons[y-1][x-1].groupabbrev.c_str());
+								drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+270, (y*(100))+ 15), IM_COL32(255,255,255,255), actimetable.lessons[y-1][x-1].roomabbrev.c_str());
+								drawlist->AddText(ImVec2(x*(800/maxtimetablesize)+250, (y*(100)) + 45+40), IM_COL32(255,255,255,255),actimetable.lessons[y-1][x-1].teacherabbrev.c_str());
+								//actimetable.lessons[y-1][x-1].teacherabbrev.c_str()
+							}
 						}
 					}
+				
+					ImGui::EndChild();
+				}else{
+					//not logged ->
+					//redirect to bakalari login 
+        			show_menu_part = 11;
 				}
-				//ImGui::TextWrapped("zde bude prihlasovaci menu (podle promene signed), pak tlacitka na rozvrh, znamky, ucitele, ukoly,..");
-				ImGui::EndChild();
 
 			}
 			else if(show_menu_part == 5)
@@ -1139,7 +1065,7 @@ int main()
 				//muj ucet
 				ShowButtonChild2(ImVec2(500, 100), undo, "Zpět",27, &show_menu_part, 0);
 				ImGui::SetNextWindowPos(ImVec2(400, 400));
-				ImGui::BeginChild(28, ImVec2(600, 400), false, wflags2);
+				ImGui::BeginChild(27, ImVec2(600, 400), false, wflags2);
 				ImGui::PushFont(fonts[1][1]);
 				ImGui::Text("Můj účet");
 				ImGui::PopFont();
@@ -1161,7 +1087,7 @@ int main()
 			else if(show_menu_part == 9){
 				//youtube downloader
 				ImGui::SetNextWindowPos(ImVec2(400, 400));
-				ImGui::BeginChild(28, ImVec2(600, 400), false, wflags2);
+				ImGui::BeginChild(29, ImVec2(600, 400), false, wflags2);
 				ImGui::Text("Stahovač YouTube Videí");
 				ImGui::InputText("Odkaz na YouTube video: ", yt_video, 64);
 				if(ImGui::Button("stáhnout")){
@@ -1169,29 +1095,98 @@ int main()
 				}
 				ImGui::EndChild();
 			}
+			else if(show_menu_part == 11){
+				if(!checked){
+					ifstream f("last.data");
+					if (f.good()) {
+    					try{
+							string tmp, tmp2, tmp3, url12;
+							char k;
+							f >> tmp;
+							f >> tmp2;
+							f >> tmp3;
+							f >> k;
+							name = XORdecrypt(tmp, k);
+							pass = XORdecrypt(tmp2, k);
+							url12 = XORdecrypt(tmp3, k);
+							ja.SetSchoolUrl(url12);
+							if(ja.Login(name, pass, &bak_err, &bak_err_des)){
+								is_logged = true;
+								bak_err = " ";
+								bak_err_des = " ";
+								//reseting for secure
+								name = "";
+								pass="";
+								//redirect back to bakalari
+								show_menu_part = 4;
+							}else{
+								is_logged = false;
+								bak_err = " ";
+								bak_err_des = " ";
+								//reseting for secure
+								name = "";
+								pass="";
+							}
+						}catch(exception &e){
+
+						}
+  					}
+					checked=true;
+				}
+				//bakalari login
+				ImGui::SetNextWindowPos(ImVec2(500, 500));
+				ImGui::BeginChild(32, ImVec2(600, 400), false, wflags2);
+				if(bak_err != " "){
+					ImGui::PushFont(font_err);
+					ImGui::TextColored(red, bak_err.c_str());
+					ImGui::PopFont();
+				}
+
+				if(bak_err_des != " "){
+					ImGui::PushFont(font_err);
+					ImGui::TextColored(red, bak_err_des.c_str());
+					ImGui::PopFont();
+				}
+				ImGui::InputText("School url", surl, 164);
+				ImGui::InputText("Username", username, 32);
+        		ImGui::InputText("Password", password, 32, ImGuiInputTextFlags_Password);
+        		if (ImGui::Button("Submit"))
+        		{
+            		printf("Username: %s, Password: %s, Url: %s\n", username, password, surl);
+					name = char128_str(username);
+					pass = char128_str(password);
+				
+					if(ja.Login(name, pass, &bak_err, &bak_err_des)){
+						ja.SetSchoolUrl(char128_str(surl));
+
+						is_logged = true;
+						bak_err = " ";
+						bak_err_des = " ";
+						//reseting for secure
+						
+						//redirect back to bakalari
+						show_menu_part = 4;
+						/*
+						f >> tmp;//name
+							f >> tmp2;//password
+							f >> tmp3;//url
+							f >> k;
+							*/
+						ofstream o("last.data");
+						string tmp32(1, name.at(0));
+						o << XORencrypt(name, name.at(0)) <<endl;
+						o << XORencrypt(pass, name.at(0)) <<endl;
+						o << XORencrypt(char128_str(surl), name.at(0)) << endl;
+						o << name.at(0) << endl;
+						o.close();
+						name = "";
+						pass="";
+					}
+        		}
+				ImGui::EndChild();
+			}
 			ImGui::End();
 		}
-
-		/*ImGui::Begin("lolsuprise");
-		ImGui::PushItemWidth(-ImGui::GetFontSize() * 15);
-		ImDrawList *draw_list = ImGui::GetWindowDrawList();
-
-		static ImVec4 colf = ImVec4(1.0f, 1.0f, 0.4f, 1.0f);
-		const ImU32 col = ImColor(colf);
-		ImVec2 vMin = ImGui::GetWindowContentRegionMin(); // left up corner
-		ImVec2 vMax = ImGui::GetWindowContentRegionMax(); // right down corner
-		vMin.x += ImGui::GetWindowPos().x;
-		vMin.y += ImGui::GetWindowPos().y;
-		vMax.x += ImGui::GetWindowPos().x;
-		vMax.y += ImGui::GetWindowPos().y;
-		// size, spacing, x, y, num of sides, thikness
-		float set[6] = {300.f, 10.f, (vMin.x), (vMin.x), 6.f, 2.15f};
-		draw_list->AddNgon(ImVec2(set[2] + set[0] * 0.5f, set[2] + set[0] * 0.5f), set[0] * 0.5f, col, set[4], set[5]);
-		ImGui::GetForegroundDrawList()->AddRect(vMin, vMax, IM_COL32(255, 255, 0, 255));
-		ImGui::Dummy(ImVec2((set[0] + set[1]) * 10.2f, (set[0] + set[1]) * 3.0f));
-		ImGui::PopItemWidth();
-
-		ImGui::End();*/
 
 		if (*show_main)
 		{
@@ -1257,6 +1252,8 @@ int main()
 		// Take care of all GLFW events
 		glfwPollEvents();
 	}
+
+	log.close();
 
 	// Deletes all ImGUI instances
 	ImGui_ImplOpenGL3_Shutdown();

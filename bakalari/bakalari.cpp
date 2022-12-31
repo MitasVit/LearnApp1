@@ -638,6 +638,10 @@ void TimeTable::Load(string path)
   }
 }
 
+void BakalariUser::SetSchoolUrl(string schoolurl_){
+  schoolurl = schoolurl_;
+}
+
 void BakalariUser::GetSchools(string path, string cityname)
 {
   try
@@ -707,7 +711,7 @@ void BakalariUser::GetActTimeTable(string path, string date)
     headers.push_back("Content-Type: application/x-www-form-urlencoded");
     headers.push_back(full);
     // headers.push_back("Connection: close");
-    string url = "https://bakalari.gympolicka.cz/api/3/timetable/actual?date=" + date;
+    string url = "https://" + schoolurl + "/api/3/timetable/actual?date=" + date;
     uireq.setOpt(new Url(url.c_str()));
     uireq.setOpt(new WriteStream(&response));
     uireq.setOpt(new HttpHeader(headers));
@@ -736,7 +740,7 @@ void BakalariUser::GetPerTimeTable(string path)
     headers.push_back(full);
     // headers.push_back("Connection: close");
 
-    uireq.setOpt(new Url("https://bakalari.gympolicka.cz/api/3/timetable/permanent"));
+    uireq.setOpt(new Url("https://" + schoolurl + "/api/3/timetable/permanent"));
     uireq.setOpt(new WriteStream(&response));
     uireq.setOpt(new HttpHeader(headers));
     uireq.perform();
@@ -763,7 +767,7 @@ TimeTable BakalariUser::GetActTimeTable2(string path, string date)
     headers.push_back("Content-Type: application/x-www-form-urlencoded");
     headers.push_back(full);
     // headers.push_back("Connection: close");
-    string url = "https://bakalari.gympolicka.cz/api/3/timetable/actual?date=" + date;
+    string url = "https://" + schoolurl + "/api/3/timetable/actual?date=" + date;
     uireq.setOpt(new Url(url.c_str()));
     uireq.setOpt(new WriteStream(&response));
     uireq.setOpt(new HttpHeader(headers));
@@ -801,7 +805,7 @@ TimeTable BakalariUser::GetPerTimeTable2(string path)
     headers.push_back(full);
     // headers.push_back("Connection: close");
 
-    uireq.setOpt(new Url("https://bakalari.gympolicka.cz/api/3/timetable/permanent"));
+    uireq.setOpt(new Url("https://" + schoolurl + "/api/3/timetable/permanent"));
     uireq.setOpt(new WriteStream(&response));
     uireq.setOpt(new HttpHeader(headers));
     uireq.perform();
@@ -832,7 +836,7 @@ void BakalariUser::LoadWriteUserInfo(string path)
     headers.push_back(full);
     // headers.push_back("Connection: close");
 
-    uireq.setOpt(new Url("https://bakalari.gympolicka.cz/api/3/user"));
+    uireq.setOpt(new Url("https://" + schoolurl + "/api/3/user"));
     uireq.setOpt(new WriteStream(&response));
     uireq.setOpt(new HttpHeader(headers));
     uireq.perform();
@@ -886,22 +890,59 @@ string BakalariUser::GetAccesToken()
   return atoken;
 }
 
-void BakalariUser::Login(string _uname, string _upass)
+bool BakalariUser::Login(string _uname, string _upass, string *error, string *errordes)
 {
   try
   {
     Easy loginreq;
     stringstream response;
     string query = "client_id=ANDR&grant_type=password&username=" + _uname + "&password=" + _upass + "";
-    loginreq.setOpt(new Url("https://bakalari.gympolicka.cz/api/login"));
+    loginreq.setOpt(new Url("https://" + schoolurl + "/api/login"));
     loginreq.setOpt(new PostFields(query));
     loginreq.setOpt(new WriteStream(&response));
     loginreq.perform();
+    cout << "trying to login" << endl;
+    cout << "login response: " << response.str().c_str() << endl;
     // load the response json and read the access token
     Document d;
     ParseResult pr = d.Parse(response.str().c_str());
-    Value &s = d["access_token"];
-    atoken = s.GetString();
+    if(d.HasMember("access_token")){
+      cout << "have access_token" << endl;
+      if(!d.HasMember("error")){
+        cout << "dont have error" << endl;
+        if(!d.HasMember("error_description")){
+          cout << "dont have error_description" << endl;
+          //token + bez chyb -> spravna autentifikace
+          Value &s = d["access_token"];
+          atoken = s.GetString();
+          cout << "token saved" << endl;
+          cout << "LOGIN COMPLETED" <<endl;
+          return true;
+        }
+      }
+    }
+
+    if(d.HasMember("error")){
+       cout << "have error" << endl;
+      if(error == NULL){
+        error = new string(d["error"].GetString());
+      }else{
+        *error = d["error"].GetString();
+      }
+      if(d.HasMember("error_description")){
+        cout << "have error_description" << endl;
+        if(errordes == NULL){
+          errordes = new string(d["error_description"].GetString());
+        }else{
+          *errordes = d["error_description"].GetString();
+        }
+        
+      }
+    }
+    cout << "FAILED TO LOGIN" << endl;
+    return false;
+
+    
   }
   catch (LogicError &e)
   {
@@ -924,7 +965,7 @@ void BakalariUser::WriteLogin(string _uname, string _upass, string path)
     Easy loginreq;
     string query = "client_id=ANDR&grant_type=password&username=" + _uname + "&password=" + _upass + "";
     ofstream response(path.c_str());
-    loginreq.setOpt(new Url("https://bakalari.gympolicka.cz/api/login"));
+    loginreq.setOpt(new Url("https://" + schoolurl + "/api/login"));
     loginreq.setOpt(new PostFields(query));
     loginreq.setOpt(new WriteStream(&response));
     loginreq.perform();
@@ -958,7 +999,7 @@ void BakalariUser::WriteUserInfo(string path)
     headers.push_back(full);
     // headers.push_back("Connection: close");
 
-    uireq.setOpt(new Url("https://bakalari.gympolicka.cz/api/3/user"));
+    uireq.setOpt(new Url("https://" + schoolurl + "/api/3/user"));
     uireq.setOpt(new WriteStream(&response));
     uireq.setOpt(new HttpHeader(headers));
     uireq.perform();

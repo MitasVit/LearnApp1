@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            position: fixed;
+        }
+
+        .toppanel {
+            background-color: #00001c;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            height: 15%;
+        }
+
+        .accountimg {
+            /*width: 11%;
+        height: 11%;*/
+            top: 2%;
+            right: 2%;
+            /*left: 87%;*/
+        }
+
+        .name {
+            right: 0%;
+            top: 4%;
+            color: white;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .name2 {
+            right: 0%;
+            top: 8%;
+            color: white;
+            font-size: 15px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .name2:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        .menubut {
+            background-color: #00001c;
+            height: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toppanel">
+    </div>
+    <img id="img1" class="accountimg" src="res/img/account_square.png">
+    <p class="name" id="name1">Mitáš Vít</p>
+    <p class="name2" id="name2">Můj účet</p>
+    <div class="menubut" id="menubut1"></div>
+    <button style="top: 50%" onclick="javascript:recompute()">Recompute</button>
+    <script>
+        function recompute() {
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+            // document.getElementById("img1").style.width = toString((h/100)*11);
+            document.getElementById("img1").style.height = "11%";
+            // Get the element that you want to change the right margin for
+            var element = document.getElementById("name1"), element2 = document.getElementById("name2"), menubut1 = document.getElementById("menubut1");
+
+            // Set the right margin to 20px
+            var compute = (h / 100) * 11 + (w / 100) * 3;
+            element.style.marginRight = compute.toString() + "px";
+            element2.style.marginRight = compute.toString() + "px";
+            //6 procent mezery okolo
+            var compute2 = ((h - ((h / 100) * 15) - (2 * ((h / 100) * 30)) - ((h / 100) * 6)) / 2) + (h / 100) * 15;
+            var width = (h / 100) * 30;
+            var compute3 = (w - (width * 2) - ((h / 100) * 6)) / 2;
+
+            menubut1.style.marginTop = compute2.toString() + "px";
+            menubut1.style.marginLeft = compute3.toString() + "px";
+            menubut1.style.width = width.toString() + "px";
+
+            console.log((h / 100) * 11 + (w / 100) * 2);
+            console.log(compute.toString() + "px");
+            console.log((h / 100) * 30);
+        }
+    </script>
+</body>
+
+</html>

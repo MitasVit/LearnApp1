@@ -7,6 +7,8 @@
                 "C:/**",
                 "C:/Users/vitat/**",
                 "C:/Users/vitat/Desktop/**",
+                "C:/msys64/mingw64/include/pango-1.0/**",
+                "C:/msys64/mingw64/include/**",
                 "${workspaceFolder}/../**"
             ],
             "defines": [
